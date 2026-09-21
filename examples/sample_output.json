@@ -1,0 +1,4289 @@
+{
+  "generated_at": "2026-09-21T04:54:18.105606+00:00",
+  "products": [
+    {
+      "asin": "B0CRMZHDG8",
+      "product": {
+        "title": "STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Fuchsia",
+        "seller_name": "Avrix Brands",
+        "brand": "STANLEY",
+        "description": "Constructed of recycled stainless steel for sustainable sipping, our 40 oz Quencher H2.0 offers maximum hydration with fewer refills. Commuting, studio workouts, day trips or your front porch\u2014you\u2019ll want this tumbler by your side. Thanks to Stanley\u2019s vacuum insulation, your water will stay ice-cold, hour after hour. The advanced FlowState\u2122 lid features a rotating cover with three positions: a straw opening designed to resist splashes while holding the reusable straw in place, a drink opening, and a full-cover top. The ergonomic handle includes comfort-grip inserts for easy carrying, and the narrow base fits just about any car cup holder.",
+        "initial_price": 45,
+        "currency": "USD",
+        "availability": "In Stock",
+        "reviews_count": 205036,
+        "categories": [
+          "Home & Kitchen",
+          "Kitchen & Dining",
+          "Storage & Organization",
+          "Thermoses",
+          "Insulated Beverage Containers",
+          "Tumblers"
+        ],
+        "parent_asin": "B0DG5KQ24H",
+        "asin": "B0CRMZHDG8",
+        "buybox_seller": "Avrix Brands",
+        "number_of_sellers": 1,
+        "root_bs_rank": 6,
+        "answered_questions": 0,
+        "domain": "https://www.amazon.com/",
+        "images_count": 9,
+        "url": "https://www.amazon.com/dp/B0CRMZHDG8?th=1&psc=1&language=en_US&currency=USD",
+        "video_count": 2,
+        "image_url": "https://m.media-amazon.com/images/I/51i4FNQRs1L._AC_SL1500_.jpg",
+        "item_weight": "1.4 pounds",
+        "rating": 4.7,
+        "product_dimensions": "10\"W x 13.25\"H",
+        "seller_id": "A2XPYBBX7QV442",
+        "image": "https://m.media-amazon.com/images/I/51i4FNQRs1L._AC_SL1500_.jpg",
+        "discount": "-11%",
+        "model_number": "100000003926",
+        "manufacturer": "Stanley",
+        "department": "Home & Kitchen",
+        "plus_content": true,
+        "upc": "041604394331",
+        "video": true,
+        "final_price_high": null,
+        "final_price": 39.95,
+        "variations": [
+          {
+            "name": "30 Ounces Spring Green",
+            "asin": "B0G78CCFP1",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51HD3ODneEL._AC_SL1500_.jpg",
+            "color": "Spring Green",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Black Magic",
+            "asin": "B0HF32Z195",
+            "price": 50,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61X0pME7uiL._AC_SL1500_.jpg",
+            "color": "Black Magic",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "14 Ounces Ash",
+            "asin": "B0CP9WN6YS",
+            "price": 25,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51c2zME5--L._AC_SL1500_.jpg",
+            "color": "Ash",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "40 Ounces Black 2.0",
+            "asin": "B0CP9Z1S51",
+            "price": 44.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51M9tu3lpIL._AC_SL1500_.jpg",
+            "color": "Black 2.0",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Fluted Cream Gloss",
+            "asin": "B0DYR87RBG",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/619jzeuZJgL._AC_SL1500_.jpg",
+            "color": "Fluted Cream Gloss",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "40 Ounces Chili Red Fireworks",
+            "asin": "B0GZJCBS45",
+            "price": 74.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/516ZD8BFZ-L._AC_SL1500_.jpg",
+            "color": "Chili Red Fireworks",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Matcha Cream",
+            "asin": "B0CX794VYP",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51RMD9Uo17L._AC_SL1500_.jpg",
+            "color": "Matcha Cream",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Blush Gloss Deco",
+            "asin": "B0CN1PGY2N",
+            "price": 107.04,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61AugsoJEyL._AC_SL1500_.jpg",
+            "color": "Blush Gloss Deco",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Peony",
+            "asin": "B0CRMWHW47",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61WM1xukklL._AC_SL1500_.jpg",
+            "color": "Peony",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Eucalyptus",
+            "asin": "B0BQZBFGZN",
+            "price": 69.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ajlQdY4bL._AC_SL1500_.jpg",
+            "color": "Eucalyptus",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "14 Ounces Soft Orchid",
+            "asin": "B0G774MHKL",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51oAz5Ij+TL._AC_SL1500_.jpg",
+            "color": "Soft Orchid",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "40 Ounces Stargaze",
+            "asin": "B0DCDQ1RFV",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51tmeIXIWJL._AC_SL1500_.jpg",
+            "color": "Stargaze",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Sea Glass Aura",
+            "asin": "B0GQ6LTHNY",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51yrbwUAs3L._AC_SL1500_.jpg",
+            "color": "Sea Glass Aura",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Azure",
+            "asin": "B0CRMXG22M",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51i8UHJDq+L._AC_SL1500_.jpg",
+            "color": "Azure",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Frost",
+            "asin": "B0CK9PT53B",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41-wYb0eYzL._AC_SL1500_.jpg",
+            "color": "Frost",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Blue Cactus",
+            "asin": "B0DZQLTXG8",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/510TGQrQ2vL._AC_SL1500_.jpg",
+            "color": "Blue Cactus",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Fluted Wisteria Shine",
+            "asin": "B0DYR8HV9K",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61dVCXGRtuL._AC_SL1500_.jpg",
+            "color": "Fluted Wisteria Shine",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Cream Gloss Deco",
+            "asin": "B0CN1PH6K9",
+            "price": 59.98,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/619MCbAboEL._AC_SL1500_.jpg",
+            "color": "Cream Gloss Deco",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Daffodil",
+            "asin": "B0G774MW8W",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51zntRJERvL._AC_SL1500_.jpg",
+            "color": "Daffodil",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "40 Ounces Spring Green",
+            "asin": "B0G77Z62KT",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/513N2mRzPqL._AC_SL1500_.jpg",
+            "color": "Spring Green",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Coastal Teal",
+            "asin": "B0GCC3K49C",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51CyfykjgYL._AC_SL1500_.jpg",
+            "color": "Coastal Teal",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "40 Ounces Frost Sprinkle",
+            "asin": "B0GND7RX91",
+            "price": 40.95,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51yo1A9fGZL._AC_SL1500_.jpg",
+            "color": "Frost Sprinkle",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Slate Blue Drift",
+            "asin": "B0GFQBRLY9",
+            "price": 66.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61AJM7JdaZL._AC_SL1500_.jpg",
+            "color": "Slate Blue Drift",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "64 Ounces Meadow",
+            "asin": "B0DQY8R96G",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61V9jyeYpPL._AC_SL1500_.jpg",
+            "color": "Meadow",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "40 Ounces Champagne",
+            "asin": "B0H47W4L85",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41jFFKxizcL._AC_SL1500_.jpg",
+            "color": "Champagne",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "64 Ounces Fog",
+            "asin": "B0C7RRDT9T",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Soh6zK+SL._AC_SL1500_.jpg",
+            "color": "Fog",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "40 Ounces Toast",
+            "asin": "B0DQY6J9TL",
+            "price": 51.95,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/617ecXxEdeL._AC_SL1500_.jpg",
+            "color": "Toast",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "64 Ounces Charcoal",
+            "asin": "B0BWKRN7CZ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51nGt5b-N4L._AC_SL1500_.jpg",
+            "color": "Charcoal",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "64 Ounces Glacier",
+            "asin": "B0DCDZSBJ9",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51oBR8twA6L._AC_SL1500_.jpg",
+            "color": "Glacier",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "30 Ounces Cobalt",
+            "asin": "B0G777BFCX",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51-NFZsEVlL._AC_SL1500_.jpg",
+            "color": "Cobalt",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "20 Ounces Peony",
+            "asin": "B0DRLFRBSL",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61yJK04uY2L._AC_SL1500_.jpg",
+            "color": "Peony",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "64 Ounces Dried Pine",
+            "asin": "B0DQY8DL61",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61teeGYhpBL._AC_SL1500_.jpg",
+            "color": "Dried Pine",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "40 Ounces Cream Tonal",
+            "asin": "B0BQZBPS4G",
+            "price": 69,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51TBQC3ckfL._AC_SL1500_.jpg",
+            "color": "Cream Tonal",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Sea Glass Plume",
+            "asin": "B0GQ5NG8D5",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61RsymMf3dL._AC_SL1500_.jpg",
+            "color": "Sea Glass Plume",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Nightfall Gloss Deco",
+            "asin": "B0CN1MP6H4",
+            "price": 99.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61u66LMCSoL._AC_SL1500_.jpg",
+            "color": "Nightfall Gloss Deco",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Pistachio",
+            "asin": "B0FB7XGQXG",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51XyDhW14bL._AC_SL1500_.jpg",
+            "color": "Pistachio",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Lupine",
+            "asin": "B0DZQK7NR6",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51OIwpUInML._AC_SL1500_.jpg",
+            "color": "Lupine",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Blue Cactus",
+            "asin": "B0DZQ7R3TQ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ivKQFsFmL._AC_SL1500_.jpg",
+            "color": "Blue Cactus",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Lupine",
+            "asin": "B0DZQ9GZNS",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51wYp3IprKL._AC_SL1500_.jpg",
+            "color": "Lupine",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "20 Ounces Cobalt",
+            "asin": "B0G77DBM9Q",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51NWmOvxj5L._AC_SL1500_.jpg",
+            "color": "Cobalt",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "40 Ounces Chili Red",
+            "asin": "B0DQY7FHQ1",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61-0B6cxl8L._AC_SL1500_.jpg",
+            "color": "Chili Red",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Stone",
+            "asin": "B0CP9Y2SKW",
+            "price": 39.69,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51L4AwCHu2L._AC_SL1500_.jpg",
+            "color": "Stone",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Seafoam",
+            "asin": "B0CV4JV93G",
+            "price": 44.9,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51L1LxQsuYL._AC_SL1500_.jpg",
+            "color": "Seafoam",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Thyme",
+            "asin": "B0FJK1BL6T",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51fXplJZHTL._AC_SL1500_.jpg",
+            "color": "Thyme",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Ponderosa Star",
+            "asin": "B0FPZMMNGJ",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61nGlFCA7PL._AC_SL1500_.jpg",
+            "color": "Ponderosa Star",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Dawn Spiral",
+            "asin": "B0GFPQQ7JN",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51iVXLkb4JL._AC_SL1500_.jpg",
+            "color": "Dawn Spiral",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "40 Ounces Sunset Spiral",
+            "asin": "B0H48DW4T8",
+            "price": 73.98,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Zahtt+stL._AC_SL1500_.jpg",
+            "color": "Sunset Spiral",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Tropical Teal",
+            "asin": "B0D2ZBCYLL",
+            "price": 49.88,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51762cxd-SL._AC_SL1500_.jpg",
+            "color": "Tropical Teal",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Rose Quartz Bouquets",
+            "asin": "B0GPFHRYBH",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51MgdOkXREL._AC_SL1500_.jpg",
+            "color": "Rose Quartz Bouquets",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Periwinkle Shimmer",
+            "asin": "B0DJCHHHNH",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51NYqyd9t7L._AC_SL1500_.jpg",
+            "color": "Periwinkle Shimmer",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Dark Navy",
+            "asin": "B0H48CNYCQ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51hU6RWzwRL._AC_SL1500_.jpg",
+            "color": "Dark Navy",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Sienna",
+            "asin": "B0DZQDK376",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51khwG9Ms6L._AC_SL1500_.jpg",
+            "color": "Sienna",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Goldenrod",
+            "asin": "B0D2YWPNTV",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51gCu1p75wL._AC_SL1500_.jpg",
+            "color": "Goldenrod",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Chili",
+            "asin": "B0D2Z9Y12N",
+            "price": 51.9,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/510AtyZTLLL._AC_SL1500_.jpg",
+            "color": "Chili",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Cream 2.0",
+            "asin": "B0CP9Y3152",
+            "price": 43.8,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51yX2s-X29L._AC_SL1500_.jpg",
+            "color": "Cream 2.0",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "14 Ounces Peony",
+            "asin": "B0DH8G9QZ5",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61F5OPtqzeL._AC_SL1500_.jpg",
+            "color": "Peony",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "30 Ounces Fluted Marina Shine",
+            "asin": "B0DYRCQ3X4",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61msUunQ-dL._AC_SL1500_.jpg",
+            "color": "Fluted Marina Shine",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Fluted Marina Shine",
+            "asin": "B0DYRLKTS7",
+            "price": 49.97,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61tVmUTDo2L._AC_SL1500_.jpg",
+            "color": "Fluted Marina Shine",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Hot Coral",
+            "asin": "B0DR9MZ563",
+            "price": 41.97,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/516+r63M1IL._AC_SL1500_.jpg",
+            "color": "Hot Coral",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Seafoam",
+            "asin": "B0DQY78DQD",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51TJdlBdIIL._AC_SL1500_.jpg",
+            "color": "Seafoam",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Sunrise Spiral",
+            "asin": "B0GFPWMYGR",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/514eil3sD7L._AC_SL1500_.jpg",
+            "color": "Sunrise Spiral",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Frost",
+            "asin": "B0CP9YDB43",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/516o7vPHqPL._AC_SL1500_.jpg",
+            "color": "Frost",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "14 Ounces Lilac",
+            "asin": "B0DRLC124S",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61RXtWXls5L._AC_SL1500_.jpg",
+            "color": "Lilac",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "20 Ounces Lilac",
+            "asin": "B0DQY82KTB",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61MaWYLOKSL._AC_SL1500_.jpg",
+            "color": "Lilac",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Stargaze",
+            "asin": "B0DCDL14HM",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Z8XsIvcBL._AC_SL1500_.jpg",
+            "color": "Stargaze",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Meadow",
+            "asin": "B0DQY9848K",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61W2pPji4AL._AC_SL1500_.jpg",
+            "color": "Meadow",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Coastal Teal",
+            "asin": "B0GC9JNDLM",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/5123MQiS8cL._AC_SL1500_.jpg",
+            "color": "Coastal Teal",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Fluted Black",
+            "asin": "B0DYRB4N3F",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61uEZUjS3CL._AC_SL1500_.jpg",
+            "color": "Fluted Black",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "20 Ounces Frost",
+            "asin": "B0DQYBMGPM",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51wlSfdMOUL._AC_SL1500_.jpg",
+            "color": "Frost",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Ash",
+            "asin": "B0CJZF9XZZ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51zAvfvJySL._AC_SL1500_.jpg",
+            "color": "Ash",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Cornflower Cabana Gloss",
+            "asin": "B0DVF5V7J2",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51e97lTZbML._AC_SL1500_.jpg",
+            "color": "Cornflower Cabana Gloss",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Sunset Spiral",
+            "asin": "B0H47SZYT8",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51qaSrkIHVL._AC_SL1500_.jpg",
+            "color": "Sunset Spiral",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Black Glow",
+            "asin": "B0BQZD3ZCS",
+            "price": 51.53,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51sHpT0sCNL._AC_SL1500_.jpg",
+            "color": "Black Glow",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "14 Ounces Daffodil",
+            "asin": "B0G77185JN",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/518trdZjvbL._AC_SL1500_.jpg",
+            "color": "Daffodil",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "40 Ounces Tigerlily",
+            "asin": "B0BQZDPFG8",
+            "price": 67.86,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ZVx-B2JiL._AC_SL1500_.jpg",
+            "color": "Tigerlily",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Black",
+            "asin": "B0BQZBPY2L",
+            "price": 76.69,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51CD6PifibL._AC_SL1500_.jpg",
+            "color": "Black",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Passion Pink",
+            "asin": "B0D2Z7WG2H",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61A9khp8P9L._AC_SL1500_.jpg",
+            "color": "Passion Pink",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Cobalt",
+            "asin": "B0G78PQD7L",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51pwevIFbOL._AC_SL1500_.jpg",
+            "color": "Cobalt",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Thyme",
+            "asin": "B0FJK3LW21",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51IaJvwRGLL._AC_SL1500_.jpg",
+            "color": "Thyme",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Lilac",
+            "asin": "B0DQY79NHP",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Y-HYqcgkL._AC_SL1500_.jpg",
+            "color": "Lilac",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "64 Ounces Cream",
+            "asin": "B0BWKQZSQB",
+            "price": 60,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51RVGqjx-7L._AC_SL1500_.jpg",
+            "color": "Cream",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "14 Ounces Seafoam",
+            "asin": "B0DQY79NHN",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51-whZ1niKL._AC_SL1500_.jpg",
+            "color": "Seafoam",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "40 Ounces Dawn Drift",
+            "asin": "B0GFQ5KRD4",
+            "price": 59.94,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/513td-VWvqL._AC_SL1500_.jpg",
+            "color": "Dawn Drift",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Chili Red",
+            "asin": "B0DQY65BX6",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61iDkD+FnrL._AC_SL1500_.jpg",
+            "color": "Chili Red",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Fluted Twilight",
+            "asin": "B0DYRR79GJ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61Sj4pDUruL._AC_SL1500_.jpg",
+            "color": "Fluted Twilight",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Lilac",
+            "asin": "B0CJZMP7L1",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51zaCVh6SIL._AC_SL1500_.jpg",
+            "color": "Lilac",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Cornflower Gloss",
+            "asin": "B0DVF954P6",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51LiIHgQscL._AC_SL1500_.jpg",
+            "color": "Cornflower Gloss",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Nectarine",
+            "asin": "B0CV64341S",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61n2aOEHyWL._AC_SL1500_.jpg",
+            "color": "Nectarine",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Orchid Soft Matte",
+            "asin": "B0C3G5RKZC",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51KUl4trkwL._AC_SL1500_.jpg",
+            "color": "Orchid Soft Matte",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Hot Coral",
+            "asin": "B0DR9QBRNJ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51SEaiREDTL._AC_SL1500_.jpg",
+            "color": "Hot Coral",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Stone",
+            "asin": "B0CP9ZX49N",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51SYigqt3BL._AC_SL1500_.jpg",
+            "color": "Stone",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Violet Blossom",
+            "asin": "B0FB7GNJ53",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51y0CimJRHL._AC_SL1500_.jpg",
+            "color": "Violet Blossom",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "14 Ounces Meadow",
+            "asin": "B0DQY6112N",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61KfkctdtFL._AC_SL1500_.jpg",
+            "color": "Meadow",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "20 Ounces Peach Rose",
+            "asin": "B0GC9YNNSQ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51qVL4lM4pL._AC_SL1500_.jpg",
+            "color": "Peach Rose",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Mahogany Gloss",
+            "asin": "B0FPZ2M24P",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51hCjY3XS3L._AC_SL1500_.jpg",
+            "color": "Mahogany Gloss",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Ash",
+            "asin": "B0CP9Z667B",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51hDg4dmN9L._AC_SL1500_.jpg",
+            "color": "Ash",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "30 Ounces Stainless Steel Shale",
+            "asin": "B0BS1XH3YG",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51fupwNaRqL._AC_SL1500_.jpg",
+            "color": "Stainless Steel Shale",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Peach Whip Cabana Gloss",
+            "asin": "B0DVF8G456",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51sy3duQ5+L._AC_SL1500_.jpg",
+            "color": "Peach Whip Cabana Gloss",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Tigerlily Plum",
+            "asin": "B0CRMY498M",
+            "price": 38.9,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51a8fZ5xCSL._AC_SL1500_.jpg",
+            "color": "Tigerlily Plum",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Frost Sprinkle",
+            "asin": "B0GNDD57HZ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ao7FcD3QL._AC_SL1500_.jpg",
+            "color": "Frost Sprinkle",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Lichen",
+            "asin": "B0F24ZH2FB",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ATf4o9tvL._AC_SL1500_.jpg",
+            "color": "Lichen",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Fuchsia",
+            "asin": "B0CRMZHDG8",
+            "price": 39.95,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51i4FNQRs1L._AC_SL1500_.jpg",
+            "color": "Fuchsia",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Spring Green",
+            "asin": "B0G77DDGMY",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/511rI4h28eL._AC_SL1500_.jpg",
+            "color": "Spring Green",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Hydrangea",
+            "asin": "B0DR9PL7Y8",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51LJXeeaiVL._AC_SL1500_.jpg",
+            "color": "Hydrangea",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Fluted Twilight",
+            "asin": "B0DYRKZBLR",
+            "price": 50,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ykkx6RQVL._AC_SL1500_.jpg",
+            "color": "Fluted Twilight",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Charcoal",
+            "asin": "B0BQZCHFK4",
+            "price": 60.02,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51WD7kZ-8nL._AC_SL1500_.jpg",
+            "color": "Charcoal",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Glacier",
+            "asin": "B0DCDQVMBM",
+            "price": 49.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51y+kfgtgCL._AC_SL1500_.jpg",
+            "color": "Glacier",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Peach Whip Gloss",
+            "asin": "B0DVFCHX2V",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51rlE6o50BL._AC_SL1500_.jpg",
+            "color": "Peach Whip Gloss",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Blue Dream Stone",
+            "asin": "B0H48P8N36",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51VTLcFcH7L._AC_SL1500_.jpg",
+            "color": "Blue Dream Stone",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Dew Drop",
+            "asin": "B0FB7P1P7B",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/414Yt1k-ULL._AC_SL1500_.jpg",
+            "color": "Dew Drop",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Blue Sky",
+            "asin": "B0G77H92QG",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/519VA3yQ7BL._AC_SL1500_.jpg",
+            "color": "Blue Sky",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "30 Ounces Fluted Ash Gloss",
+            "asin": "B0DYRGSDDR",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Jydt-WlJL._AC_SL1500_.jpg",
+            "color": "Fluted Ash Gloss",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Nectarine",
+            "asin": "B0CV63QB3X",
+            "price": 44.69,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51o7rn+jaYL._AC_SL1500_.jpg",
+            "color": "Nectarine",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Toasted Almond",
+            "asin": "B0FSP3K9B7",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41qyp6hA1IL._AC_SL1500_.jpg",
+            "color": "Toasted Almond",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "64 Ounces (Pack of 4) Cream 2.0",
+            "asin": "B0FD7YZ1PD",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61aUa6A1wML._AC_SL1500_.jpg",
+            "color": "Cream 2.0",
+            "size": "64 Ounces (Pack of 4)"
+          },
+          {
+            "name": "30 Ounces Dried Pine",
+            "asin": "B0DQY7Y43C",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/611f4EDscTL._AC_SL1500_.jpg",
+            "color": "Dried Pine",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Black Glow",
+            "asin": "B0C7SD173Y",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51xeEBT6dIL._AC_SL1500_.jpg",
+            "color": "Black Glow",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "40 Ounces Black Gloss Deco",
+            "asin": "B0CN1L7ZPV",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61DfAT9OxjL._AC_SL1500_.jpg",
+            "color": "Black Gloss Deco",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Tropical Teal",
+            "asin": "B0D2YZGMZZ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51IUnzv8RNL._AC_SL1500_.jpg",
+            "color": "Tropical Teal",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Bright Lime",
+            "asin": "B0D2Z2WZ4J",
+            "price": 55,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Uhz3pl6aL._AC_SL1500_.jpg",
+            "color": "Bright Lime",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Soft Orchid",
+            "asin": "B0G77DX2VY",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/511J0GoU45L._AC_SL1500_.jpg",
+            "color": "Soft Orchid",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Rose Petal Shimmer",
+            "asin": "B0DJCH9SLY",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51DldjcoXdL._AC_SL1500_.jpg",
+            "color": "Rose Petal Shimmer",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "20 Ounces Soft Orchid",
+            "asin": "B0G774RSQ5",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51fhJBoRbcL._AC_SL1500_.jpg",
+            "color": "Soft Orchid",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "40 Ounces Frost",
+            "asin": "B0CK9GTLJY",
+            "price": 44.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41-w2pso68L._AC_SL1500_.jpg",
+            "color": "Frost",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Rose Petal Shimmer",
+            "asin": "B0DJCFZ4X5",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61Xq9gbwDEL._AC_SL1500_.jpg",
+            "color": "Rose Petal Shimmer",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Blue Sky",
+            "asin": "B0G77DPGGZ",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51CRmAWCNGL._AC_SL1500_.jpg",
+            "color": "Blue Sky",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Passion Pink",
+            "asin": "B0D2Z1PJWT",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61cPXp+NJ2L._AC_SL1500_.jpg",
+            "color": "Passion Pink",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Black Chroma",
+            "asin": "B0CRMZ7TFZ",
+            "price": 65.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61RD3beo+VL._AC_SL1500_.jpg",
+            "color": "Black Chroma",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Dew Drop",
+            "asin": "B0FB7H9BZ8",
+            "price": 47.6,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51sZrrbo5iL._AC_SL1500_.jpg",
+            "color": "Dew Drop",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Sea Glass Aura",
+            "asin": "B0GQ6JG9F2",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51XkxtJts9L._AC_SL1500_.jpg",
+            "color": "Sea Glass Aura",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Black Chroma",
+            "asin": "B0CRMRQKCJ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61ga4-mkjGL._AC_SL1500_.jpg",
+            "color": "Black Chroma",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "20 Ounces Sea Glass Plume",
+            "asin": "B0GQ5G3WVL",
+            "price": 35,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61e6u2anwCL._AC_SL1500_.jpg",
+            "color": "Sea Glass Plume",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Indigo",
+            "asin": "B0CTS7J6W7",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51RFz7m69aL._AC_SL1500_.jpg",
+            "color": "Indigo",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Plum",
+            "asin": "B0CRN1XC69",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61j-6FOc1mL._AC_SL1500_.jpg",
+            "color": "Plum",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Shale",
+            "asin": "B0CV649NHV",
+            "price": 49.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51bUETp1j1L._AC_SL1500_.jpg",
+            "color": "Shale",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Fluted Ash Gloss",
+            "asin": "B0DYQZWCM3",
+            "price": 48.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51dlucr6ZcL._AC_SL1500_.jpg",
+            "color": "Fluted Ash Gloss",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Citron",
+            "asin": "B0BS29Z483",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Wc06G95EL._AC_SL1500_.jpg",
+            "color": "Citron",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "20 Ounces Pomelo",
+            "asin": "B0DQY8C2M2",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51WkIRnHIWL._AC_SL1500_.jpg",
+            "color": "Pomelo",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Soft Orchid",
+            "asin": "B0G77PXS38",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51epLm75lVL._AC_SL1500_.jpg",
+            "color": "Soft Orchid",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Cornflower Gloss",
+            "asin": "B0DVF2WFKK",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51yBDTwx0zL._AC_SL1500_.jpg",
+            "color": "Cornflower Gloss",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Indigo",
+            "asin": "B0CV4LNPFX",
+            "price": 41.17,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/516Fm2IotwL._AC_SL1500_.jpg",
+            "color": "Indigo",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Flint",
+            "asin": "B0BQZDV8MW",
+            "price": 49.23,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51tyI85oyAL._AC_SL1500_.jpg",
+            "color": "Flint",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Seafoam",
+            "asin": "B0CTS7223W",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51GkMdv8JSL._AC_SL1500_.jpg",
+            "color": "Seafoam",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Lilac",
+            "asin": "B0CJZZNS72",
+            "price": 41.96,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51trbmB3icL._AC_SL1500_.jpg",
+            "color": "Lilac",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Fluted Gunmetal Shine",
+            "asin": "B0DYRN2G55",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61wL2C4eaEL._AC_SL1500_.jpg",
+            "color": "Fluted Gunmetal Shine",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "20 Ounces Cream 2.0",
+            "asin": "B0DQY8WQNL",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51OtVxZvdwL._AC_SL1500_.jpg",
+            "color": "Cream 2.0",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Goldenrod Coral",
+            "asin": "B0DCTZZ9HG",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51QRQQy7eeL._AC_SL1500_.jpg",
+            "color": "Goldenrod Coral",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Rose Quartz Glow",
+            "asin": "B0BS1SRRDZ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51hBpgt0MfL._AC_SL1500_.jpg",
+            "color": "Rose Quartz Glow",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Sunrise Spiral",
+            "asin": "B0GFQBX3NH",
+            "price": 33,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51y+jI7gbLL._AC_SL1500_.jpg",
+            "color": "Sunrise Spiral",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Red Rust Soft Matte",
+            "asin": "B0BJZ2WJR1",
+            "price": 99.95,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51dMrudqVtL._AC_SL1500_.jpg",
+            "color": "Red Rust Soft Matte",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Fluted Wisteria Shine",
+            "asin": "B0DYR6NLBS",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61XYf9q3utL._AC_SL1500_.jpg",
+            "color": "Fluted Wisteria Shine",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Cream 2.0",
+            "asin": "B0CP9YBWMG",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51eyeg7R2gL._AC_SL1500_.jpg",
+            "color": "Cream 2.0",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Rose Quartz 2.0",
+            "asin": "B0CP9YBWMH",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51a9kNrEcxL._AC_SL1500_.jpg",
+            "color": "Rose Quartz 2.0",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "30 Ounces Jade",
+            "asin": "B0BS1TZ34Q",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51xgs73JqfL._AC_SL1500_.jpg",
+            "color": "Jade",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Peach Whip Gloss",
+            "asin": "B0DVDSSV4G",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51sdbWo8wHL._AC_SL1500_.jpg",
+            "color": "Peach Whip Gloss",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Fluted Gunmetal Shine",
+            "asin": "B0DYR882H8",
+            "price": 50,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Ml6b8o8nL._AC_SL1500_.jpg",
+            "color": "Fluted Gunmetal Shine",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Sorbet Plus",
+            "asin": "B0H489JFVW",
+            "price": 40.95,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51XOQpJP5qL._AC_SL1500_.jpg",
+            "color": "Sorbet Plus",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Fuchsia",
+            "asin": "B0CRMZ9PFR",
+            "price": 39.49,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61aFG92FqLL._AC_SL1500_.jpg",
+            "color": "Fuchsia",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Cobalt",
+            "asin": "B0G77Z49WX",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51X2GOn0i2L._AC_SL1500_.jpg",
+            "color": "Cobalt",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "40 Ounces Lichen",
+            "asin": "B0F25371FH",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51n8Ng1cyLL._AC_SL1500_.jpg",
+            "color": "Lichen",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Peony",
+            "asin": "B0CRMP3RQT",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41vs1l35W7L._AC_SL1500_.jpg",
+            "color": "Peony",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Purple Dust",
+            "asin": "B0GC938T2C",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51WCGsYr3LL._AC_SL1500_.jpg",
+            "color": "Purple Dust",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Champagne",
+            "asin": "B0H47ZFKG9",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": null,
+            "color": "Champagne",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Chili Red Fireworks",
+            "asin": "B0GZJCZD9G",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/518tHlPaX3L._AC_SL1500_.jpg",
+            "color": "Chili Red Fireworks",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Cherry Blossom",
+            "asin": "B0DR9PNXX3",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51SFVnJ-JWL._AC_SL1500_.jpg",
+            "color": "Cherry Blossom",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Peach Whip Cabana Gloss",
+            "asin": "B0DVDYVF9S",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51PvgmUxFcL._AC_SL1500_.jpg",
+            "color": "Peach Whip Cabana Gloss",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Black 2.0",
+            "asin": "B0CP9YF9W7",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ztoy2W0iL._AC_SL1500_.jpg",
+            "color": "Black 2.0",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Shale",
+            "asin": "B0CV63638C",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51KFBhpJssL._AC_SL1500_.jpg",
+            "color": "Shale",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Fluted Wisteria Shine",
+            "asin": "B0DYRRC7FX",
+            "price": 84.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61ilXuhZJSL._AC_SL1500_.jpg",
+            "color": "Fluted Wisteria Shine",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Cream",
+            "asin": "B0BPQ34HYJ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61N++Kof2ML._AC_SL1500_.jpg",
+            "color": "Cream",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Twilight",
+            "asin": "B0DQY7G73F",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61-Rv6wffuL._AC_SL1500_.jpg",
+            "color": "Twilight",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Purple Dust",
+            "asin": "B0GC8J2V81",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41b8T2eQALL._AC_SL1500_.jpg",
+            "color": "Purple Dust",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Glacier",
+            "asin": "B0DCDS4D5L",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51BeMW7lU6L._AC_SL1500_.jpg",
+            "color": "Glacier",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Sahara Plume",
+            "asin": "B0GND1L6FF",
+            "price": 40,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61-bT-EnqTL._AC_SL1500_.jpg",
+            "color": "Sahara Plume",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Plum",
+            "asin": "B0CRMYT2WC",
+            "price": 44.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61bBQS+lKJL._AC_SL1500_.jpg",
+            "color": "Plum",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Toasted Almond",
+            "asin": "B0FSNZRV96",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41ObyKJ7FTL._AC_SL1500_.jpg",
+            "color": "Toasted Almond",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Fog",
+            "asin": "B0BQZ9K23L",
+            "price": 49.39,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/31in0r4FK2L._AC_SL1000_.jpg",
+            "color": "Fog",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Neon Orange",
+            "asin": "B0CV64B9GD",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61Xa8m8mUvL._AC_SL1500_.jpg",
+            "color": "Neon Orange",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Sea Glass Aura",
+            "asin": "B0GRF97L9T",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51p3KfOYKuL._AC_SL1500_.jpg",
+            "color": "Sea Glass Aura",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Azure",
+            "asin": "B0DQY96DM8",
+            "price": 28,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61UgziOFOkL._AC_SL1500_.jpg",
+            "color": "Azure",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Blue Sky",
+            "asin": "B0G77TSHLN",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51x4uPvqegL._AC_SL1500_.jpg",
+            "color": "Blue Sky",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Blue Dream Stone",
+            "asin": "B0H487FD7L",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51jGTVnDKwL._AC_SL1500_.jpg",
+            "color": "Blue Dream Stone",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Dried Pine",
+            "asin": "B0DQYC7C3R",
+            "price": 43.89,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61t9LzUlUGL._AC_SL1500_.jpg",
+            "color": "Dried Pine",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Black Magic",
+            "asin": "B0HF2NGLQ1",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/615vqQRzm9L._AC_SL1500_.jpg",
+            "color": "Black Magic",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "14 Ounces Rose Quartz 2.0",
+            "asin": "B0DQY7LP4H",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51tgu-gU8zL._AC_SL1500_.jpg",
+            "color": "Rose Quartz 2.0",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "30 Ounces Chili",
+            "asin": "B0D2Z5MVZC",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51oW7vzg6RL._AC_SL1500_.jpg",
+            "color": "Chili",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Periwinkle Shimmer",
+            "asin": "B0DJCGW98M",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Jsii8r8OL._AC_SL1500_.jpg",
+            "color": "Periwinkle Shimmer",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Cranberry",
+            "asin": "B0FB7RPM1G",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51HRm3dHMhL._AC_SL1500_.jpg",
+            "color": "Cranberry",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Rose Quartz",
+            "asin": "B0BQZCL9KW",
+            "price": 74.95,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41ryNvEnNCL._AC_SL1500_.jpg",
+            "color": "Rose Quartz",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Mist",
+            "asin": "B0CRMXD5GN",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/515BEFgkotL._AC_SL1500_.jpg",
+            "color": "Mist",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Orchid Soft Matte",
+            "asin": "B0C3GL93H8",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Xxoab0AKL._AC_SL1500_.jpg",
+            "color": "Orchid Soft Matte",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Cream Royal Fireworks",
+            "asin": "B0GZJL34DD",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51-9OxvqKHL._AC_SL1500_.jpg",
+            "color": "Cream Royal Fireworks",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Bright Lime",
+            "asin": "B0D2YG51KB",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51vb7O-HbWL._AC_SL1500_.jpg",
+            "color": "Bright Lime",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Cream 2.0",
+            "asin": "B0CP9YQDZ3",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Dh2fnUryL._AC_SL1500_.jpg",
+            "color": "Cream 2.0",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "20 Ounces Blue Sky",
+            "asin": "B0G7779TTY",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51NieA1gNwL._AC_SL1500_.jpg",
+            "color": "Blue Sky",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Tigerlily",
+            "asin": "B0BS1T2HCJ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51zbtx95-7L._AC_SL1500_.jpg",
+            "color": "Tigerlily",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Twilight",
+            "asin": "B0DQY6M595",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61+Cb2eylVL._AC_SL1500_.jpg",
+            "color": "Twilight",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Cream Royal Fireworks",
+            "asin": "B0GZJ3WZD5",
+            "price": 33,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51tx4K63WsL._AC_SL1500_.jpg",
+            "color": "Cream Royal Fireworks",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Rose Quartz 2.0",
+            "asin": "B0DQY6LSWL",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/516i+YjH8PL._AC_SL1500_.jpg",
+            "color": "Rose Quartz 2.0",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Azure",
+            "asin": "B0CRMTZ1Q3",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61X5bY+reYL._AC_SL1500_.jpg",
+            "color": "Azure",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "20 Ounces Black 2.0",
+            "asin": "B0DQY93KTY",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/612u6DjlnML._AC_SL1500_.jpg",
+            "color": "Black 2.0",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Splash",
+            "asin": "B0DR9P8TBY",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51OyQcBr5OL._AC_SL1500_.jpg",
+            "color": "Splash",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Vivid Violet",
+            "asin": "B0D2YG91F2",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/511mTkC14JL._AC_SL1500_.jpg",
+            "color": "Vivid Violet",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Blue Spruce",
+            "asin": "B0CRMXP5R5",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61+9RkANTJL._AC_SL1500_.jpg",
+            "color": "Blue Spruce",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Vivid Violet",
+            "asin": "B0D2Z2R3KX",
+            "price": 40.95,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51+D2h0ygDL._AC_SL1500_.jpg",
+            "color": "Vivid Violet",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Ash",
+            "asin": "B0CJZW65R3",
+            "price": 44.36,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41fVlf8ZJyL._AC_SL1500_.jpg",
+            "color": "Ash",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Daffodil",
+            "asin": "B0G789M7M2",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51HVwycIAcL._AC_SL1500_.jpg",
+            "color": "Daffodil",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "20 Ounces Fluted Marina Shine",
+            "asin": "B0DYR6KCF2",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61d8U9f59bL._AC_SL1500_.jpg",
+            "color": "Fluted Marina Shine",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "14 Ounces Spring Green",
+            "asin": "B0G773CCF1",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Bsi858YhL._AC_SL1500_.jpg",
+            "color": "Spring Green",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "30 Ounces Coastal Teal",
+            "asin": "B0GC936ZQY",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51p5WJ6x-3L._AC_SL1500_.jpg",
+            "color": "Coastal Teal",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Almond Rose",
+            "asin": "B0D4FDBD11",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51YCAmWOwYL._AC_SL1500_.jpg",
+            "color": "Almond Rose",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Rose Quartz 2.0",
+            "asin": "B0CP9Z56SW",
+            "price": 44.57,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41ryNvEnNCL._AC_SL1500_.jpg",
+            "color": "Rose Quartz 2.0",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Toast",
+            "asin": "B0DQY82SS9",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61jyNMaGDGL._AC_SL1500_.jpg",
+            "color": "Toast",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Matcha Cream",
+            "asin": "B0CX76WC1M",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51hY6UZ0UAL._AC_SL1500_.jpg",
+            "color": "Matcha Cream",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "14 Ounces Cobalt",
+            "asin": "B0G78P8ZCP",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51dXrNUEn3L._AC_SL1500_.jpg",
+            "color": "Cobalt",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "64 Ounces Stone",
+            "asin": "B0CQ1DBQS2",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51cv3qxd4WL._AC_SL1500_.jpg",
+            "color": "Stone",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "30 Ounces Violet Blossom",
+            "asin": "B0DCV38YTM",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51dxcfhOT7L._AC_SL1500_.jpg",
+            "color": "Violet Blossom",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Cranberry",
+            "asin": "B0FB7LKQXV",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51WQDu4lPEL._AC_SL1500_.jpg",
+            "color": "Cranberry",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Fluted Cream Gloss",
+            "asin": "B0DYRB76DL",
+            "price": 50,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51rgydC1SoL._AC_SL1500_.jpg",
+            "color": "Fluted Cream Gloss",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Fluted Cream Gloss",
+            "asin": "B0DYRFMC6Q",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ZMmchZhzL._AC_SL1500_.jpg",
+            "color": "Fluted Cream Gloss",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Dark Navy",
+            "asin": "B0H48189S9",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51N+-iIFlLL._AC_SL1500_.jpg",
+            "color": "Dark Navy",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "14 Ounces Black 2.0",
+            "asin": "B0DQY7C2K4",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61ae2QVWDUL._AC_SL1500_.jpg",
+            "color": "Black 2.0",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "30 Ounces Peach Rose",
+            "asin": "B0GCBD2PQK",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51BB+hE5FML._AC_SL1500_.jpg",
+            "color": "Peach Rose",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Ponderosa Star",
+            "asin": "B0FPZR13DM",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51gn19ImOPL._AC_SL1500_.jpg",
+            "color": "Ponderosa Star",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "14 Ounces Cream 2.0",
+            "asin": "B0DQY78Q7H",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/517Fs5cbR0L._AC_SL1500_.jpg",
+            "color": "Cream 2.0",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "40 Ounces Violet Blossom",
+            "asin": "B0DCV47JXX",
+            "price": 59.99,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51U8PF+pL-L._AC_SL1500_.jpg",
+            "color": "Violet Blossom",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Mahogany Gloss",
+            "asin": "B0FPYS58H7",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/514QG+GX9EL._AC_SL1500_.jpg",
+            "color": "Mahogany Gloss",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Daffodil",
+            "asin": "B0G77T72KJ",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51O8+iPBhVL._AC_SL1500_.jpg",
+            "color": "Daffodil",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Iris",
+            "asin": "B0BYLNP851",
+            "price": 46.78,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61g1J5kR8cL._AC_SL1500_.jpg",
+            "color": "Iris",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Goldenrod Coral",
+            "asin": "B0DCV3GLYF",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51g1VODvF5L._AC_SL1500_.jpg",
+            "color": "Goldenrod Coral",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Frost Sprinkle",
+            "asin": "B0GNFBXRQF",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51p9-sN1T2L._AC_SL1500_.jpg",
+            "color": "Frost Sprinkle",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Blue Dream Stone",
+            "asin": "B0H48RXWRF",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51uFzYBAplL._AC_SL1500_.jpg",
+            "color": "Blue Dream Stone",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Fluted Black",
+            "asin": "B0DYRHK92P",
+            "price": 50,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/611FshOQWjL._AC_SL1500_.jpg",
+            "color": "Fluted Black",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Peach Whip Cabana Gloss",
+            "asin": "B0DVF61RW5",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51r3I+GhCNL._AC_SL1500_.jpg",
+            "color": "Peach Whip Cabana Gloss",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "20 Ounces Peach Whip Gloss",
+            "asin": "B0DVF9NCLJ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51JG0rCfOoL._AC_SL1500_.jpg",
+            "color": "Peach Whip Gloss",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Mist",
+            "asin": "B0CRMY5BMK",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/514aYTw7P7L._AC_SL1500_.jpg",
+            "color": "Mist",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "30 Ounces Purple Dust",
+            "asin": "B0GC8JDXK3",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51J5VljVYFL._AC_SL1500_.jpg",
+            "color": "Purple Dust",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "14 Ounces Pomelo",
+            "asin": "B0DQY845Q5",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ECmgQj1-L._AC_SL1500_.jpg",
+            "color": "Pomelo",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "14 Ounces Frost",
+            "asin": "B0DRLDPM5R",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51PmEC6m46L._AC_SL1500_.jpg",
+            "color": "Frost",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "40 Ounces Rose Quartz Bouquets",
+            "asin": "B0GPFHGYXJ",
+            "price": 50,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51IhRL8RcXL._AC_SL1500_.jpg",
+            "color": "Rose Quartz Bouquets",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Iris",
+            "asin": "B0BYWFHZCC",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/5113StdKEYL._AC_SL1500_.jpg",
+            "color": "Iris",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Sienna",
+            "asin": "B0DZQLW4DG",
+            "price": 33,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51V3WGxoM6L._AC_SL1500_.jpg",
+            "color": "Sienna",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Periwinkle Shimmer",
+            "asin": "B0DJCJVP17",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61nwGZWvTrL._AC_SL1500_.jpg",
+            "color": "Periwinkle Shimmer",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "40 Ounces Cherry Blossom",
+            "asin": "B0DR9PPMRP",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/512Bj+eqStL._AC_SL1500_.jpg",
+            "color": "Cherry Blossom",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Agave",
+            "asin": "B0F24ZBFYG",
+            "price": 69.98,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51gZyU+bX0L._AC_SL1500_.jpg",
+            "color": "Agave",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Fluted Gunmetal Shine",
+            "asin": "B0DYRGTQ2G",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61Vn5DCkwTL._AC_SL1500_.jpg",
+            "color": "Fluted Gunmetal Shine",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Pomelo",
+            "asin": "B0CRMYHY1B",
+            "price": 41.95,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/5127rf7D4WL._AC_SL1500_.jpg",
+            "color": "Pomelo",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Dawn Spiral",
+            "asin": "B0GFPX136G",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51cMBUZJPeL._AC_SL1500_.jpg",
+            "color": "Dawn Spiral",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Stainless Steel Shale",
+            "asin": "B0BQZC46PC",
+            "price": 40.95,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51HN8blUHZL._AC_SL1500_.jpg",
+            "color": "Stainless Steel Shale",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Slate Blue Drift",
+            "asin": "B0GFQ1BHSK",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61mcIMCfUFL._AC_SL1500_.jpg",
+            "color": "Slate Blue Drift",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "30 Ounces Rose Quartz 2.0",
+            "asin": "B0CP9YB3Q4",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51-U5dEbEBL._AC_SL1500_.jpg",
+            "color": "Rose Quartz 2.0",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Goldenrod",
+            "asin": "B0D2Z8DQJ8",
+            "price": 39.55,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51IC9zVCbBL._AC_SL1500_.jpg",
+            "color": "Goldenrod",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Splash",
+            "asin": "B0DR9Q42SF",
+            "price": 44,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51FilORFxwL._AC_SL1500_.jpg",
+            "color": "Splash",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "64 Ounces Black 2.0",
+            "asin": "B0CPZYJDBQ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61goTmZ6NTL._AC_SL1500_.jpg",
+            "color": "Black 2.0",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "40 Ounces Hydrangea",
+            "asin": "B0DR9PMJ3C",
+            "price": 39.72,
+            "currency": "USD",
+            "unit_price": "$0.99",
+            "image": "https://m.media-amazon.com/images/I/51YdaRsxRYL._AC_SL1500_.jpg",
+            "color": "Hydrangea",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Citron",
+            "asin": "B0BQZ8XZFB",
+            "price": 51.28,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/41EXAx3tAZL._AC_SL1400_.jpg",
+            "color": "Citron",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Slate Blue Drift",
+            "asin": "B0GFPSDBZT",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/614CZ2USwGL._AC_SL1500_.jpg",
+            "color": "Slate Blue Drift",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "14 Ounces Blue Sky",
+            "asin": "B0G77SVPCZ",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51HrAk2agAL._AC_SL1500_.jpg",
+            "color": "Blue Sky",
+            "size": "14 Ounces"
+          },
+          {
+            "name": "40 Ounces Cream Royal",
+            "asin": "B0DVFGFBS7",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ahYCDI4VL._AC_SL1500_.jpg",
+            "color": "Cream Royal",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "40 Ounces Pistachio",
+            "asin": "B0FB7QVYX3",
+            "price": 43.9,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51HFceqtCqL._AC_SL1500_.jpg",
+            "color": "Pistachio",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Cream Royal",
+            "asin": "B0DVF83FNK",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51VtY80Yc4L._AC_SL1500_.jpg",
+            "color": "Cream Royal",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Blue Spruce",
+            "asin": "B0CRMZT4Z1",
+            "price": 56.34,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61BA22f0EtL._AC_SL1500_.jpg",
+            "color": "Blue Spruce",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "20 Ounces Sunrise Spiral",
+            "asin": "B0GFQ847BP",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51j5XrLakjL._AC_SL1500_.jpg",
+            "color": "Sunrise Spiral",
+            "size": "20 Ounces"
+          },
+          {
+            "name": "40 Ounces Neon Orange",
+            "asin": "B0CV62XSDZ",
+            "price": 65,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61nyN4vPmZL._AC_SL1500_.jpg",
+            "color": "Neon Orange",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Tigerlily Plum",
+            "asin": "B0CRMTVBJB",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61h6STBt0nL._AC_SL1500_.jpg",
+            "color": "Tigerlily Plum",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Soft Orchid",
+            "asin": "B0G771RJLR",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51F6xdrdtmL._AC_SL1500_.jpg",
+            "color": "Soft Orchid",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "40 Ounces Peach Rose",
+            "asin": "B0GC9JZ2ZJ",
+            "price": 45,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51Q2TNPpAFL._AC_SL1500_.jpg",
+            "color": "Peach Rose",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Pomelo",
+            "asin": "B0CRMTWY41",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51WWpoCKCdL._AC_SL1500_.jpg",
+            "color": "Pomelo",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "64 Ounces Twilight",
+            "asin": "B0DQY86FJF",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61EObgR9BBL._AC_SL1500_.jpg",
+            "color": "Twilight",
+            "size": "64 Ounces"
+          },
+          {
+            "name": "30 Ounces Fluted Black",
+            "asin": "B0DYR6L5HM",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/61WfVQzW+yL._AC_SL1500_.jpg",
+            "color": "Fluted Black",
+            "size": "30 Ounces"
+          },
+          {
+            "name": "40 Ounces Dawn Spiral",
+            "asin": "B0GFPQQ1L2",
+            "price": 65,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51ybZ-XmdTL._AC_SL1500_.jpg",
+            "color": "Dawn Spiral",
+            "size": "40 Ounces"
+          },
+          {
+            "name": "30 Ounces Sorbet Plus",
+            "asin": "B0H48RTHBC",
+            "price": null,
+            "currency": "USD",
+            "unit_price": null,
+            "image": "https://m.media-amazon.com/images/I/51qz3QihsSL._AC_SL1500_.jpg",
+            "color": "Sorbet Plus",
+            "size": "30 Ounces"
+          }
+        ],
+        "delivery": [
+          "FREE delivery Saturday, September 26",
+          "Or Prime members get FREE delivery Today 5 PM - 10 PM. Order within 7 hrs 45 mins. Join Prime"
+        ],
+        "features": [
+          "YOUR DREAM TUMBLER: Whichever way your day flows, the H2.0 FlowState tumbler keeps you refreshed with fewer refills. Double wall vacuum insulation means drinks stay cold, iced or hot for hours. Choose between our 14oz, 20oz, 30oz,40oz and 64oz options depending on your hydration needs. The narrow base on all sizes (except 64oz) fits just about any car cup holder, keeping it right by your side.",
+          "ADVANCED LID CONSTRUCTION: Whether you prefer small sips or maximum thirst quenching, Stanley has developed an advanced FlowState lid, featuring a rotating cover with three positions: a straw opening designed to resist splashes with a seal that holds the reusable straw in place, a drink opening, and a full-cover top for added leak resistance. We\u2019ve also included an ergonomic, comfort-grip handle, so you can easily carry your ice-cold water to work, meetings, the gym or trips out of town.",
+          "EARTH-FRIENDLY DURABILITY: Constructed of 90% recycled BPA free stainless steel for sustainable sipping, the Stanley Quencher H2.0 has the durability to stand up to a lifetime of use. Eliminate the use of single-use plastic bottles and straws with a travel tumbler built with sustainability in mind.",
+          "DISHWASHER SAFE: Spend less time hunched over the sink and more time doing the things you love. Cleaning your tumbler and lid couldn't be easier, just pop them into the dishwasher. Unlike plastic bottles that retain stains & smells, this metallic beauty comes out pristine",
+          "LIFETIME WARRANTY: Since 1913 we\u2019ve promised to provide rugged, capable gear for food and drink - accessories built to last a lifetime. It\u2019s a promise we still keep. Stanley products purchased from Stanley Resellers come with a lifetime warranty. Rest easy knowing we\u2019ve got your back through it all."
+        ],
+        "buybox_prices": {
+          "final_price": 39.95,
+          "initial_price": 45,
+          "discount": "-11%",
+          "unit_price": null
+        },
+        "bought_past_month": 400,
+        "is_available": true,
+        "root_bs_category": "Kitchen & Dining",
+        "bs_category": "Insulated Tumblers",
+        "bs_rank": 2,
+        "badge": "Amazon's  Choice",
+        "subcategory_rank": [
+          {
+            "subcategory_name": "Insulated Tumblers",
+            "subcategory_rank": 2
+          }
+        ],
+        "amazon_choice": true,
+        "images": [
+          "https://m.media-amazon.com/images/I/51i4FNQRs1L._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/61y5kBcVvEL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/81HY75RE32L._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/6172ZDgKNuL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/71fqa+tv8xL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/817Z3xL0vlL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/81PQlStEScL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/51XFVEHkSKL._AC_SL1500_.jpg",
+          "https://m.media-amazon.com/images/I/51CcWrhbGXL._AC_SL1500_.jpg"
+        ],
+        "product_details": [
+          {
+            "type": "Brand Name",
+            "value": "STANLEY"
+          },
+          {
+            "type": "Recommended Uses For Product",
+            "value": "Travel"
+          },
+          {
+            "type": "Included Components",
+            "value": "Lid, Straw"
+          },
+          {
+            "type": "Age Range Description",
+            "value": "Adult"
+          },
+          {
+            "type": "Manufacturer",
+            "value": "Stanley"
+          },
+          {
+            "type": "UPC",
+            "value": "041604394331"
+          },
+          {
+            "type": "Global Trade Identification Number",
+            "value": "00041604394331"
+          },
+          {
+            "type": "Set Name",
+            "value": "Single Tumbler"
+          },
+          {
+            "type": "Item Type Name",
+            "value": "Tumbler"
+          },
+          {
+            "type": "Model Number",
+            "value": "100000003926"
+          },
+          {
+            "type": "Manufacturer Part Number",
+            "value": "10-11824-062"
+          },
+          {
+            "type": "Manufacturer Warranty Description",
+            "value": "Lifetime Warranty"
+          },
+          {
+            "type": "Best Sellers Rank",
+            "value": "#6 in Kitchen & Dining (See Top 100 in Kitchen & Dining)#2 in Insulated Tumblers"
+          },
+          {
+            "type": "ASIN",
+            "value": "B0CRMZHDG8"
+          },
+          {
+            "type": "Customer Reviews",
+            "value": "4.74.7 out of 5 stars(205,036)4.7 out of 5 stars"
+          },
+          {
+            "type": "Other Special Features of the Product",
+            "value": "Rotating"
+          },
+          {
+            "type": "Color",
+            "value": "Fuchsia"
+          },
+          {
+            "type": "Product Style",
+            "value": "40 oz"
+          },
+          {
+            "type": "Theme",
+            "value": "Floral"
+          },
+          {
+            "type": "Shape",
+            "value": "Round"
+          },
+          {
+            "type": "Pattern",
+            "value": "Solid"
+          },
+          {
+            "type": "Pattern",
+            "value": "Solid"
+          },
+          {
+            "type": "Occasion",
+            "value": "New Year"
+          },
+          {
+            "type": "Material Type",
+            "value": "Stainless Steel"
+          },
+          {
+            "type": "Product Care Instructions",
+            "value": "Hand Wash Only"
+          },
+          {
+            "type": "Material Features",
+            "value": "Insulated"
+          },
+          {
+            "type": "Reusability",
+            "value": "Reusable"
+          },
+          {
+            "type": "Material Type Free",
+            "value": "BPA Free"
+          },
+          {
+            "type": "Capacity",
+            "value": "40 fluid ounces"
+          },
+          {
+            "type": "Unit Count",
+            "value": "1 Count"
+          },
+          {
+            "type": "Item Weight",
+            "value": "1.4 pounds"
+          },
+          {
+            "type": "Item Dimensions W x H",
+            "value": "10\"W x 13.25\"H"
+          },
+          {
+            "type": "Number of Items",
+            "value": "1"
+          },
+          {
+            "type": "Size",
+            "value": "40 Ounces"
+          },
+          {
+            "type": "Brand",
+            "value": "STANLEY"
+          },
+          {
+            "type": "Material",
+            "value": "Stainless Steel"
+          },
+          {
+            "type": "Color",
+            "value": "Fuchsia"
+          },
+          {
+            "type": "Capacity",
+            "value": "40 fluid ounces"
+          },
+          {
+            "type": "Special Feature",
+            "value": "Rotating"
+          }
+        ],
+        "prices_breakdown": {
+          "typical_price": null,
+          "list_price": 45,
+          "deal_type": null
+        },
+        "country_of_origin": null,
+        "from_the_brand": [
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f7f36523-e01d-4e7a-b646-5e4c544f383a.__CR0,0,1464,625_PT0_SX1464_V1___.png",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3b486075-7119-4b3c-8b64-d30d274ef89c.__CR0,0,1086,1359_PT0_SX362_V1___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4f0c30e0-cff8-4f07-b4fa-e0482508d2c7.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0eddf8e4-f29c-4b21-ad17-1ccb500065fe.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c7af9698-d773-4272-abbb-0e50909a2fb7.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/61f043f3-beb7-4460-90dd-e2f7b95352ca.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9b3140ba-a42e-45be-8408-cbf4d5805e08.__CR0,0,1086,1359_PT0_SX362_V1___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/d014da4a-4cce-4b41-b342-1ddad92d9bf3.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/832bc766-7a30-48ad-a7e7-4635b6901891.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/7c149397-8d0b-44ab-a7e5-84e3c08fefe4.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/76655d65-6592-43e9-ba10-d250dee7e95c.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/057a7fe1-0236-4f75-ac35-7f4b4016cc91.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e561aed0-e189-4bfd-b221-6df73df8a2c8.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/998b74f7-3cee-47ea-a059-4e0e7fb75338.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/ae579867-077e-4f11-a079-6a50d6b039bd.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/c679090c-cc6f-44ea-ab1f-e3b36d662440.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/9b2b9d83-7fe9-4c92-870d-b16006afd4fa.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/f79ddce6-cdb6-4a92-adf7-d407d1a93626.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/fa0f59a7-aef1-420d-9087-d1bb7aaa6695.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4dcfe51e-6374-4b66-90a9-e642f1209928.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/3a6646de-69c3-4ef6-a39a-8016e2579ee5.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b0fdbdba-a461-4994-be1d-84b1e51410d9.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/e3525305-e2ee-4137-ab1e-d7c65aa4107d.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/57267dcc-85b8-43a5-aaca-ab48c0c78e58.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/963f667e-9906-4cef-8e56-f9349776a4a1.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/046b1e02-a9a2-488e-ba13-22c430ffcfd2.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4b10cf47-b9b2-49d1-a1f6-7a7554244ff9.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0215ed5b-02f5-40f4-934f-5d05487dfd03.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/93d9d54b-e870-4122-ace7-63bb98cfdd3f.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/b09a5a69-15f3-401f-b3e5-d3b5b6238baf.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2264dda0-119e-4793-bf5c-7c9bae21e942.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/46bbc2dc-451a-4821-9bd9-10853574b95e.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a6ff582e-3ba5-4007-b52f-4f95bf4a603e.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/92ecc93d-b624-47db-b068-0e835bf7d663.__AC_SR166,182___.jpg",
+          "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2075b483-3780-4ab7-8faf-f88f65172e64.__AC_SR166,182___.jpg"
+        ],
+        "product_description": [
+          {
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/1dea9f7a-4c66-41a0-b603-25c7eadcbdd0.__CR0,0,1464,600_PT0_SX1464_V1___.jpg",
+            "type": "image"
+          },
+          {
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/34bedf96-f38a-49c6-b20d-f9060d099406.__CR0,0,1464,600_PT0_SX1464_V1___.jpg",
+            "type": "image"
+          },
+          {
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/4538929d-d480-4a2a-b7a4-3ec4ec0f77df.__CR0,713,2000,1077_PT0_SX650_V1___.jpg",
+            "type": "image"
+          },
+          {
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/33941b5a-fb37-40b5-8b4a-5261ad0f03c0.__CR81,830,1818,979_PT0_SX650_V1___.jpg",
+            "type": "image"
+          },
+          {
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/448e865d-ecde-4159-875a-9b4e120fd61a.__CR0,0,1464,600_PT0_SX1464_V1___.jpg",
+            "type": "image"
+          },
+          {
+            "url": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2dccacf2-01d2-4c81-87c5-3afb614e93f7.__CR0,0,1464,600_PT0_SX1464_V1___.png",
+            "type": "image"
+          }
+        ],
+        "seller_url": "https://www.amazon.com/sp?ie=UTF8&seller=A2XPYBBX7QV442&asin=B0CRMZHDG8",
+        "customer_says": "Customers love the Stanley tumbler's appearance and appreciate its 30oz size and temperature retention, noting it keeps drinks cold all day and maintains ice for a long time. The color receives positive feedback, with one customer mentioning there are many color options to choose from. While some customers find it durable and worth the money, others report issues with the handle breaking off and consider it not worth the price. Additionally, the tumbler has leakage problems, with customers reporting it leaks everywhere.",
+        "sustainability_features": [
+          {
+            "title": "Recycled materials",
+            "description": "Contains at least 50% recycled material.  Recycled Claim Standard Blended",
+            "links": null
+          }
+        ],
+        "climate_pledge_friendly": false,
+        "videos": [
+          "https://www.amazon.com/vdp/0fff341dc244441f93f253a090b6870a",
+          "https://www.amazon.com/vdp/00e6bdd168764c04b4c944ca2303813e"
+        ],
+        "other_sellers_prices": [
+          {
+            "price": 39.95,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery Friday, September 25. Or Prime members get FREE delivery Tuesday, September 22. Order within 5 mins. Join Prime",
+            "seller_name": "Avrix Brands",
+            "seller_url": "https://www.amazon.com/gp/aag/main?ie=UTF8&seller=A2XPYBBX7QV442&isAmazonFulfilled=1&asin=B0CRMZHDG8&ref_=olp_merch_name_0",
+            "seller_rating": 4.5,
+            "ships_from": "Amazon.com",
+            "num_of_ratings": 205036
+          },
+          {
+            "price": 28.96,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery Friday, September 25 on orders shipped by Amazon over $35. Or Prime members get FREE delivery Wednesday, September 23. Order within 5 mins. Join Prime",
+            "seller_name": "Avrix Brands",
+            "seller_url": "https://www.amazon.com/gp/aag/main?ie=UTF8&seller=A2XPYBBX7QV442&isAmazonFulfilled=1&asin=B0CRMZHDG8&ref_=olp_merch_name_1",
+            "seller_rating": 4.5,
+            "ships_from": "Amazon.com",
+            "num_of_ratings": 6868
+          },
+          {
+            "price": 39.95,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery Friday, September 25. Or Prime members get FREE delivery Wednesday, September 23. Order within 5 mins. Join Prime",
+            "seller_name": "Amazon.com",
+            "seller_url": null,
+            "seller_rating": 0,
+            "ships_from": "Amazon.com",
+            "num_of_ratings": 0
+          },
+          {
+            "price": 40.99,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery Friday, September 25. Or Prime members get FREE delivery Tuesday, September 22. Order within 5 mins. Join Prime",
+            "seller_name": "Wholesaler AZ",
+            "seller_url": "https://www.amazon.com/gp/aag/main?ie=UTF8&seller=A1XWC8YF8F9U8N&isAmazonFulfilled=1&asin=B0CRMZHDG8&ref_=olp_merch_name_3",
+            "seller_rating": 4.5,
+            "ships_from": "Amazon.com",
+            "num_of_ratings": 326
+          },
+          {
+            "price": 41,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery Thursday, September 24. Details. Or fastest delivery Tuesday, September 22. Order within 10 hrs 5 mins. Details",
+            "seller_name": "Groves Goods LLC",
+            "seller_url": "https://www.amazon.com/gp/aag/main?ie=UTF8&seller=A3BBMXFMCGESOW&isAmazonFulfilled=0&asin=B0CRMZHDG8&ref_=olp_merch_name_4",
+            "seller_rating": 5,
+            "ships_from": "Groves Goods LLC",
+            "num_of_ratings": 188
+          },
+          {
+            "price": 41.94,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery Friday, September 25. Or Prime members get FREE delivery Tuesday, September 22. Order within 5 mins. Join Prime",
+            "seller_name": "JH-BE Products",
+            "seller_url": "https://www.amazon.com/gp/aag/main?ie=UTF8&seller=A35DZ5FWOQPI9J&isAmazonFulfilled=1&asin=B0CRMZHDG8&ref_=olp_merch_name_5",
+            "seller_rating": 5,
+            "ships_from": "Amazon.com",
+            "num_of_ratings": 710
+          },
+          {
+            "price": 42.06,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery September 25 - 27. Or fastest delivery Friday, September 25",
+            "seller_name": "Precision Distributions",
+            "seller_url": "https://www.amazon.com/gp/aag/main?ie=UTF8&seller=A2X4RNMCZVNFMR&isAmazonFulfilled=1&asin=B0CRMZHDG8&ref_=olp_merch_name_6",
+            "seller_rating": 5,
+            "ships_from": "Amazon.com",
+            "num_of_ratings": 109
+          },
+          {
+            "price": 43.5,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery Friday, September 25. Or Prime members get FREE delivery Tuesday, September 22. Order within 5 mins. Join Prime",
+            "seller_name": "The Collectors Aisle",
+            "seller_url": "https://www.amazon.com/gp/aag/main?ie=UTF8&seller=A178U328NUU3IB&isAmazonFulfilled=1&asin=B0CRMZHDG8&ref_=olp_merch_name_7",
+            "seller_rating": 5,
+            "ships_from": "Amazon.com",
+            "num_of_ratings": 483
+          },
+          {
+            "price": 43.74,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery Friday, September 25. Or Prime members get FREE delivery Tuesday, September 22. Order within 5 mins. Join Prime",
+            "seller_name": "MODA Services",
+            "seller_url": "https://www.amazon.com/gp/aag/main?ie=UTF8&seller=AONLFLPBLZORA&isAmazonFulfilled=1&asin=B0CRMZHDG8&ref_=olp_merch_name_8",
+            "seller_rating": 5,
+            "ships_from": "Amazon.com",
+            "num_of_ratings": 1987
+          },
+          {
+            "price": 44.21,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery Friday, September 25. Or Prime members get FREE delivery Tuesday, September 22. Order within 5 mins. Join Prime",
+            "seller_name": "Precision Distributions",
+            "seller_url": "https://www.amazon.com/gp/aag/main?ie=UTF8&seller=A2X4RNMCZVNFMR&isAmazonFulfilled=1&asin=B0CRMZHDG8&ref_=olp_merch_name_9",
+            "seller_rating": 5,
+            "ships_from": "Amazon.com",
+            "num_of_ratings": 109
+          },
+          {
+            "price": 59.99,
+            "price_per_unit": null,
+            "unit": null,
+            "delivery": "FREE delivery Monday, September 28. Details. Or fastest delivery September 22 - 24. Order within 12 hrs 5 mins. Details",
+            "seller_name": "YOA STORE LLC",
+            "seller_url": "https://www.amazon.com/gp/aag/main?ie=UTF8&seller=A2OIEQHT7PF5G8&isAmazonFulfilled=0&asin=B0CRMZHDG8&ref_=olp_merch_name_10",
+            "seller_rating": 4.5,
+            "ships_from": "YOA STORE LLC",
+            "num_of_ratings": 19
+          }
+        ],
+        "downloadable_videos": [
+          "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/af5a110f-8c68-4ca3-81a3-7d558de2b103/default.jobtemplate.hls.m3u8",
+          "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b2b4a7be-27dc-4a86-8eb0-1c8229b86302/default.jobtemplate.hls.m3u8"
+        ],
+        "editorial_reviews": null,
+        "about_the_author": null,
+        "zipcode": "11001",
+        "coupon": null,
+        "sponsered": false,
+        "store_url": null,
+        "ships_from": "Amazon",
+        "city": null,
+        "customers_say": {
+          "text": "Customers love the Stanley tumbler's appearance and appreciate its 30oz size and temperature retention, noting it keeps drinks cold all day and maintains ice for a long time. The color receives positive feedback, with one customer mentioning there are many color options to choose from. While some customers find it durable and worth the money, others report issues with the handle breaking off and consider it not worth the price. Additionally, the tumbler has leakage problems, with customers reporting it leaks everywhere.",
+          "keywords": {
+            "positive": [
+              "Appearance",
+              "Temperature retention",
+              "Color",
+              "Size",
+              "Ice retention"
+            ],
+            "negative": [
+              "Leakage"
+            ],
+            "mixed": [
+              "Value for money",
+              "Durability"
+            ]
+          }
+        },
+        "max_quantity_available": 5,
+        "variations_values": [
+          {
+            "variant_name": "Size",
+            "values": [
+              "14 Ounces",
+              "20 Ounces",
+              "30 Ounces",
+              "40 Ounces",
+              "64 Ounces",
+              "64 Ounces (Pack of 4)"
+            ]
+          },
+          {
+            "variant_name": "Color",
+            "values": [
+              "Agave",
+              "Almond Rose",
+              "Ash",
+              "Azure",
+              "Black",
+              "Black 2.0",
+              "Black Chroma",
+              "Black Gloss Deco",
+              "Black Glow",
+              "Black Magic",
+              "Blue Cactus",
+              "Blue Dream Stone",
+              "Blue Sky",
+              "Blue Spruce",
+              "Blush Gloss Deco",
+              "Bright Lime",
+              "Champagne",
+              "Charcoal",
+              "Cherry Blossom",
+              "Chili",
+              "Chili Red",
+              "Chili Red Fireworks",
+              "Citron",
+              "Coastal Teal",
+              "Cobalt",
+              "Cornflower Cabana Gloss",
+              "Cornflower Gloss",
+              "Cranberry",
+              "Cream",
+              "Cream 2.0",
+              "Cream Gloss Deco",
+              "Cream Royal",
+              "Cream Royal Fireworks",
+              "Cream Tonal",
+              "Daffodil",
+              "Dark Navy",
+              "Dawn Drift",
+              "Dawn Spiral",
+              "Dew Drop",
+              "Dried Pine",
+              "Eucalyptus",
+              "Flint",
+              "Fluted Ash Gloss",
+              "Fluted Black",
+              "Fluted Cream Gloss",
+              "Fluted Gunmetal Shine",
+              "Fluted Marina Shine",
+              "Fluted Twilight",
+              "Fluted Wisteria Shine",
+              "Fog",
+              "Frost",
+              "Frost Sprinkle",
+              "Fuchsia",
+              "Glacier",
+              "Goldenrod",
+              "Goldenrod Coral",
+              "Hot Coral",
+              "Hydrangea",
+              "Indigo",
+              "Iris",
+              "Jade",
+              "Lichen",
+              "Lilac",
+              "Lupine",
+              "Mahogany Gloss",
+              "Matcha Cream",
+              "Meadow",
+              "Mist",
+              "Nectarine",
+              "Neon Orange",
+              "Nightfall Gloss Deco",
+              "Orchid Soft Matte",
+              "Passion Pink",
+              "Peach Rose",
+              "Peach Whip Cabana Gloss",
+              "Peach Whip Gloss",
+              "Peony",
+              "Periwinkle Shimmer",
+              "Pistachio",
+              "Plum",
+              "Pomelo",
+              "Ponderosa Star",
+              "Purple Dust",
+              "Red Rust Soft Matte",
+              "Rose Petal Shimmer",
+              "Rose Quartz",
+              "Rose Quartz 2.0",
+              "Rose Quartz Bouquets",
+              "Rose Quartz Glow",
+              "Sahara Plume",
+              "Sea Glass Aura",
+              "Sea Glass Plume",
+              "Seafoam",
+              "Shale",
+              "Sienna",
+              "Slate Blue Drift",
+              "Soft Orchid",
+              "Sorbet Plus",
+              "Splash",
+              "Spring Green",
+              "Stainless Steel Shale",
+              "Stargaze",
+              "Stone",
+              "Sunrise Spiral",
+              "Sunset Spiral",
+              "Thyme",
+              "Tigerlily",
+              "Tigerlily Plum",
+              "Toast",
+              "Toasted Almond",
+              "Tropical Teal",
+              "Twilight",
+              "Violet Blossom",
+              "Vivid Violet"
+            ]
+          }
+        ],
+        "language": null,
+        "return_policy": "FREE 30-day refund/replacement",
+        "inactive_buy_box": {
+          "price": 28.96,
+          "delivery": [
+            "FREE delivery Saturday, September 26 on orders shipped by Amazon over $35"
+          ]
+        },
+        "buybox_seller_rating": null,
+        "premium_brand": false,
+        "amazon_prime": true,
+        "coupon_description": null,
+        "all_badges": [
+          "Amazon's  Choice"
+        ],
+        "sponsored": false,
+        "category_tree": [
+          {
+            "name": "Home & Kitchen",
+            "url": "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398"
+          },
+          {
+            "name": "Kitchen & Dining",
+            "url": "https://www.amazon.com/kitchen-dining/b/ref=dp_bc_2?ie=UTF8&node=284507"
+          },
+          {
+            "name": "Storage & Organization",
+            "url": "https://www.amazon.com/kitchen-storage-organization/b/ref=dp_bc_3?ie=UTF8&node=510136"
+          },
+          {
+            "name": "Thermoses",
+            "url": "https://www.amazon.com/Vacuum-Flasks/b/ref=dp_bc_4?ie=UTF8&node=21613418011"
+          },
+          {
+            "name": "Insulated Beverage Containers",
+            "url": "https://www.amazon.com/Insulated-Beverage-Containers/b/ref=dp_bc_5?ie=UTF8&node=21613420011"
+          },
+          {
+            "name": "Tumblers",
+            "url": "https://www.amazon.com/Insulated-Tumblers/b/ref=dp_bc_6?ie=UTF8&node=21613423011"
+          }
+        ],
+        "variant_attributes": [
+          {
+            "name": "Size",
+            "value": "40 Ounces"
+          },
+          {
+            "name": "Color",
+            "value": "Fuchsia"
+          }
+        ],
+        "variants": [
+          {
+            "variant_type": "Size",
+            "variant_options": [
+              {
+                "option_id": "B0CRMZ9PFR",
+                "option_name": "30 Ounces, Fuchsia",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              }
+            ]
+          },
+          {
+            "variant_type": "Color",
+            "variant_options": [
+              {
+                "option_id": "B0HF32Z195",
+                "option_name": "40 Ounces, Black Magic",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CP9Z1S51",
+                "option_name": "40 Ounces, Black 2.0",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GZJCBS45",
+                "option_name": "40 Ounces, Chili Red Fireworks",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CX794VYP",
+                "option_name": "40 Ounces, Matcha Cream",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CN1PGY2N",
+                "option_name": "40 Ounces, Blush Gloss Deco",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZBFGZN",
+                "option_name": "40 Ounces, Eucalyptus",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DCDQ1RFV",
+                "option_name": "40 Ounces, Stargaze",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CRMXG22M",
+                "option_name": "40 Ounces, Azure",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DZQLTXG8",
+                "option_name": "40 Ounces, Blue Cactus",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CN1PH6K9",
+                "option_name": "40 Ounces, Cream Gloss Deco",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0G77Z62KT",
+                "option_name": "40 Ounces, Spring Green",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GND7RX91",
+                "option_name": "40 Ounces, Frost Sprinkle",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GFQBRLY9",
+                "option_name": "40 Ounces, Slate Blue Drift",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0H47W4L85",
+                "option_name": "40 Ounces, Champagne",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DQY6J9TL",
+                "option_name": "40 Ounces, Toast",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZBPS4G",
+                "option_name": "40 Ounces, Cream Tonal",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CN1MP6H4",
+                "option_name": "40 Ounces, Nightfall Gloss Deco",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DZQK7NR6",
+                "option_name": "40 Ounces, Lupine",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DQY7FHQ1",
+                "option_name": "40 Ounces, Chili Red",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CP9Y2SKW",
+                "option_name": "40 Ounces, Stone",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CV4JV93G",
+                "option_name": "40 Ounces, Seafoam",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0FJK1BL6T",
+                "option_name": "40 Ounces, Thyme",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0FPZMMNGJ",
+                "option_name": "40 Ounces, Ponderosa Star",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0H48DW4T8",
+                "option_name": "40 Ounces, Sunset Spiral",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0D2ZBCYLL",
+                "option_name": "40 Ounces, Tropical Teal",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DJCHHHNH",
+                "option_name": "40 Ounces, Periwinkle Shimmer",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0D2Z9Y12N",
+                "option_name": "40 Ounces, Chili",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CP9Y3152",
+                "option_name": "40 Ounces, Cream 2.0",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DYRLKTS7",
+                "option_name": "40 Ounces, Fluted Marina Shine",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DR9MZ563",
+                "option_name": "40 Ounces, Hot Coral",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DQY9848K",
+                "option_name": "40 Ounces, Meadow",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GC9JNDLM",
+                "option_name": "40 Ounces, Coastal Teal",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZD3ZCS",
+                "option_name": "40 Ounces, Black Glow",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZDPFG8",
+                "option_name": "40 Ounces, Tigerlily",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZBPY2L",
+                "option_name": "40 Ounces, Black",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0G78PQD7L",
+                "option_name": "40 Ounces, Cobalt",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GFQ5KRD4",
+                "option_name": "40 Ounces, Dawn Drift",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0C3G5RKZC",
+                "option_name": "40 Ounces, Orchid Soft Matte",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DVF8G456",
+                "option_name": "40 Ounces, Peach Whip Cabana Gloss",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CRMY498M",
+                "option_name": "40 Ounces, Tigerlily Plum",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DYRKZBLR",
+                "option_name": "40 Ounces, Fluted Twilight",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZCHFK4",
+                "option_name": "40 Ounces, Charcoal",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DCDQVMBM",
+                "option_name": "40 Ounces, Glacier",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DVFCHX2V",
+                "option_name": "40 Ounces, Peach Whip Gloss",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CV63QB3X",
+                "option_name": "40 Ounces, Nectarine",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0FSP3K9B7",
+                "option_name": "40 Ounces, Toasted Almond",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CN1L7ZPV",
+                "option_name": "40 Ounces, Black Gloss Deco",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0D2Z2WZ4J",
+                "option_name": "40 Ounces, Bright Lime",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0G77DX2VY",
+                "option_name": "40 Ounces, Soft Orchid",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CK9GTLJY",
+                "option_name": "40 Ounces, Frost",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0G77DPGGZ",
+                "option_name": "40 Ounces, Blue Sky",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0D2Z1PJWT",
+                "option_name": "40 Ounces, Passion Pink",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CRMZ7TFZ",
+                "option_name": "40 Ounces, Black Chroma",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0FB7H9BZ8",
+                "option_name": "40 Ounces, Dew Drop",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CV649NHV",
+                "option_name": "40 Ounces, Shale",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DYQZWCM3",
+                "option_name": "40 Ounces, Fluted Ash Gloss",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DVF2WFKK",
+                "option_name": "40 Ounces, Cornflower Gloss",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CV4LNPFX",
+                "option_name": "40 Ounces, Indigo",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZDV8MW",
+                "option_name": "40 Ounces, Flint",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CJZZNS72",
+                "option_name": "40 Ounces, Lilac",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GFQBX3NH",
+                "option_name": "40 Ounces, Sunrise Spiral",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BJZ2WJR1",
+                "option_name": "40 Ounces, Red Rust Soft Matte",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DYR882H8",
+                "option_name": "40 Ounces, Fluted Gunmetal Shine",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0H489JFVW",
+                "option_name": "40 Ounces, Sorbet Plus",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0F25371FH",
+                "option_name": "40 Ounces, Lichen",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CRMP3RQT",
+                "option_name": "40 Ounces, Peony",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DYRRC7FX",
+                "option_name": "40 Ounces, Fluted Wisteria Shine",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DQY7G73F",
+                "option_name": "40 Ounces, Twilight",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GC8J2V81",
+                "option_name": "40 Ounces, Purple Dust",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CRMYT2WC",
+                "option_name": "40 Ounces, Plum",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZ9K23L",
+                "option_name": "40 Ounces, Fog",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GRF97L9T",
+                "option_name": "40 Ounces, Sea Glass Aura",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0H487FD7L",
+                "option_name": "40 Ounces, Blue Dream Stone",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DQYC7C3R",
+                "option_name": "40 Ounces, Dried Pine",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZCL9KW",
+                "option_name": "40 Ounces, Rose Quartz",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CRMXD5GN",
+                "option_name": "40 Ounces, Mist",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GZJ3WZD5",
+                "option_name": "40 Ounces, Cream Royal Fireworks",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0D2Z2R3KX",
+                "option_name": "40 Ounces, Vivid Violet",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CJZW65R3",
+                "option_name": "40 Ounces, Ash",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CP9Z56SW",
+                "option_name": "40 Ounces, Rose Quartz 2.0",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0FB7LKQXV",
+                "option_name": "40 Ounces, Cranberry",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DYRB76DL",
+                "option_name": "40 Ounces, Fluted Cream Gloss",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0H48189S9",
+                "option_name": "40 Ounces, Dark Navy",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DCV47JXX",
+                "option_name": "40 Ounces, Violet Blossom",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0FPYS58H7",
+                "option_name": "40 Ounces, Mahogany Gloss",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0G77T72KJ",
+                "option_name": "40 Ounces, Daffodil",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BYLNP851",
+                "option_name": "40 Ounces, Iris",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DCV3GLYF",
+                "option_name": "40 Ounces, Goldenrod Coral",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DYRHK92P",
+                "option_name": "40 Ounces, Fluted Black",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GPFHGYXJ",
+                "option_name": "40 Ounces, Rose Quartz Bouquets",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DZQLW4DG",
+                "option_name": "40 Ounces, Sienna",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DR9PPMRP",
+                "option_name": "40 Ounces, Cherry Blossom",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0F24ZBFYG",
+                "option_name": "40 Ounces, Agave",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CRMYHY1B",
+                "option_name": "40 Ounces, Pomelo",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZC46PC",
+                "option_name": "40 Ounces, Stainless Steel Shale",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0D2Z8DQJ8",
+                "option_name": "40 Ounces, Goldenrod",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DR9Q42SF",
+                "option_name": "40 Ounces, Splash",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DR9PMJ3C",
+                "option_name": "40 Ounces, Hydrangea",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0BQZ8XZFB",
+                "option_name": "40 Ounces, Citron",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0DVFGFBS7",
+                "option_name": "40 Ounces, Cream Royal",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0FB7QVYX3",
+                "option_name": "40 Ounces, Pistachio",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CRMZT4Z1",
+                "option_name": "40 Ounces, Blue Spruce",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0CV62XSDZ",
+                "option_name": "40 Ounces, Neon Orange",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GC9JZ2ZJ",
+                "option_name": "40 Ounces, Peach Rose",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              },
+              {
+                "option_id": "B0GFPQQ1L2",
+                "option_name": "40 Ounces, Dawn Spiral",
+                "option_price": null,
+                "in_stock": null,
+                "image": null
+              }
+            ]
+          }
+        ],
+        "target_countries": [
+          "us"
+        ],
+        "category_urls": [
+          "https://www.amazon.com/home-garden-kitchen-furniture-bedding/b/ref=dp_bc_1?ie=UTF8&node=1055398",
+          "https://www.amazon.com/kitchen-dining/b/ref=dp_bc_2?ie=UTF8&node=284507",
+          "https://www.amazon.com/kitchen-storage-organization/b/ref=dp_bc_3?ie=UTF8&node=510136",
+          "https://www.amazon.com/Vacuum-Flasks/b/ref=dp_bc_4?ie=UTF8&node=21613418011",
+          "https://www.amazon.com/Insulated-Beverage-Containers/b/ref=dp_bc_5?ie=UTF8&node=21613420011",
+          "https://www.amazon.com/Insulated-Tumblers/b/ref=dp_bc_6?ie=UTF8&node=21613423011"
+        ],
+        "safety_information": null,
+        "subcategory_link": [
+          {
+            "subcategory_name": "Insulated Tumblers",
+            "subcategory_link": "https://www.amazon.com/gp/bestsellers/kitchen/21613423011/ref=pd_zg_hrsr_kitchen"
+          }
+        ],
+        "is_frequently_returned_item_badge": false,
+        "frequently_returned_item_message": null,
+        "is_customers_usually_keep": false,
+        "title_badge": null,
+        "review_videos": null,
+        "bought_past_month_text": "400+ bought in past month",
+        "is_high_price": false,
+        "title_highlight": "Handle and Straw | 3-Position Lid | Cup Holder Compatible for Travel | Insulated Stainless Steel Cup | BPA-Free",
+        "title_clean": "STANLEY Quencher H2.0 Flow State Tumbler, 40 oz, Fuchsia",
+        "customers_say_topics": [
+          {
+            "topic": "Appearance",
+            "mentions_count": 11,
+            "positive_mentions_count": 10904,
+            "negative_mentions_count": 375,
+            "topic_description": "Customers love the appearance of the tumbler, describing it as beautiful.",
+            "example_quotes": [
+              "Love it! Great quality and size. I\u2019ve been suffering from an illness and wanted something I could sip on in bed without a million trips to go refill....",
+              "I love it!! It keeps my drinks cold with ice for 24 hours plus! It holds a lot and so easy to carry to work. It lasts me all day and into the next day",
+              "Love, keeps my things cold all day, I freeze ice and take it work and leave it in my locker overnight and still have ice left the next day",
+              "Purchased for a friend. She loves it! Exceptional quality and loves the color! She purchased a rubber style straw cover and cup holder to go with it."
+            ]
+          },
+          {
+            "topic": "Temperature retention",
+            "mentions_count": 6,
+            "positive_mentions_count": 5959,
+            "negative_mentions_count": 596,
+            "topic_description": "Customers appreciate that the tumbler keeps drinks cold all day.",
+            "example_quotes": [
+              "Keeps drinks cold but would recommend to use metal straw if drinks are hot so straw doesn\u2019t melt but overall it\u2019s literally the best thing ever \u2764\ufe0f\u2764\ufe0f\u2764...",
+              "It\u2019s a Stanley! Nothing more to say, really. It keeps my water cold and matches my fall tote and outfits. The color is gorgeous and I love it \ud83d\ude0d<br />*...",
+              "Very good water bottle keeps my drinks cold and easy to carry around. I\u2019m able to fit it into a cupholder while driving which is very convenient.",
+              "Love my Stanley! It keeps water cold and is easy to take with me because of the handle and it fitting into the cup holder in my car. Super pleased!"
+            ]
+          },
+          {
+            "topic": "Color",
+            "mentions_count": 5,
+            "positive_mentions_count": 5271,
+            "negative_mentions_count": 346,
+            "topic_description": "Customers love the color of the tumbler, with one customer noting there are many options to choose from.",
+            "example_quotes": [
+              "Love the color and keeps the beverage cold (I've only used it for cold drinks) Sometimes the lid is hard to come off. Very sturdy and a little bulky.",
+              "Beautiful color but almost impossible to unscrew lid. Very frustrating. Have been great in the past however after this purchase I would not buy again.",
+              "Great quality. Keeps ice cold for 24 hrs. Great color. Weighty but not super heavy. I didn\u2019t want to fall into the Stanley hype, but I\u2019m all in.",
+              "...I love how it keeps things cold or hot for a while. I love the color. Mine did come with a few stuff marks though. I bought the accessories separate...."
+            ]
+          },
+          {
+            "topic": "Size",
+            "mentions_count": 2,
+            "positive_mentions_count": 2243,
+            "negative_mentions_count": 305,
+            "topic_description": "Customers love the size of the tumbler, particularly its 30oz capacity.",
+            "example_quotes": [
+              "This Stanley is the perfect size (holds 16 oz of water with ice) and isn\u2019t too heavy like the larger ones and the ice keeps overnight. Love the color!",
+              "I absolutely love my new Stanley. I got the 40 oz. and it's a great size. I don't have to fill it as often. The quality is supurb and it's so pretty!...",
+              "Love it! Great quality and size. I\u2019ve been suffering from an illness and wanted something I could sip on in bed without a million trips to go refill....",
+              "...can sometimes be hard to unscrew to refill but other than that, I love the size, straw, that it remains cold for hours, esp when ice is in it. Love!"
+            ]
+          },
+          {
+            "topic": "Ice retention",
+            "mentions_count": 2,
+            "positive_mentions_count": 1541,
+            "negative_mentions_count": 489,
+            "topic_description": "Customers appreciate that the tumbler keeps ice for a long time.",
+            "example_quotes": [
+              "...the cup, durable, easy to clean, holds easily in car cup holder, keeps ice all day, more than 8hrs,non spill lid, durable straw, value for money",
+              "...Paired it with the pink accessories and we are obsessed. Keeps ice so far, it just came today but everything seems to be working properly....",
+              "This cup keeps ice for days! Large and portable, our gift does not go unused! It now has a name and travels with a 15 year old wherever she goes!!...",
+              "My cup doesn\u2019t keep ice only for a couple of hours I don\u2019t know if it a defect or what but since I had it doesn\u2019t keep ice long..."
+            ]
+          },
+          {
+            "topic": "Value for money",
+            "mentions_count": 3,
+            "positive_mentions_count": 2430,
+            "negative_mentions_count": 1517,
+            "topic_description": "Customers have mixed opinions about the tumbler's value for money, with some finding it worth the money while others say it's not worth the price.",
+            "example_quotes": [
+              "...It looks just how it does in the picture definitely worth the money. Of course if you tip it it\u2019s not leak proof from the top but it\u2019s an amazing cup!...",
+              "...I can look past the scratches but I will be sending it back. Not worth the money I paid for it at all. I have off brands better than this tumbler.",
+              "Great price! Anywhere else, these are about $70! Very easy to clean and keeps any drink ice cold!!! Straw is good quality and not flemsy or cheap!",
+              "Great quality! Highly recommended! My fav brand! Worth it! Keeps drinks so cold!! Easy to hand wash. Holds a lot of liquid! Easy to carry and hold!"
+            ]
+          },
+          {
+            "topic": "Durability",
+            "mentions_count": 3,
+            "positive_mentions_count": 1785,
+            "negative_mentions_count": 1843,
+            "topic_description": "Customers have mixed experiences with the tumbler's durability, with some finding it great and lasting forever, while others report that the handle breaks clean off and the straw is broken.",
+            "example_quotes": [
+              "...However, handle Broke after owning for a little over a month. Everyone talks so highly but the workmanship isn't there! Really disappointed....",
+              "Big and Beautiful \ud83d\ude0d Durable and sturdy..Keeps your drink cold \ud83e\udd76 for hours!! Plus its leaking proof..No discussion here..Yes ,You should grab you one!!",
+              "I had my Stanley for less than a month and the handle broke, for the price of this cup this is unacceptable, there\u2019s so many better cups with better...",
+              "...Minor flaws as described but this tumbler was amazing. It is sturdy, the color is beautiful, and it definitely performed when keeping my water cold...."
+            ]
+          },
+          {
+            "topic": "Leakage",
+            "mentions_count": 2,
+            "positive_mentions_count": 776,
+            "negative_mentions_count": 2108,
+            "topic_description": "Customers report that the tumbler leaks everywhere and is not spillproof.",
+            "example_quotes": [
+              "wish I would have stuck with my simple modern bottle. this leaks and does not hold ice for more than a couple of hours - in my airconditioned office!...",
+              "Cute, just as I imagined. It\u2019s definitely not leak proof which does suck. But a good alternative size if you don\u2019t want to bring a big Stanley around.",
+              "...This holds about 4 16oz bottles of water. It is solid and leak proof. I\u2019ve had this for about 5 months now and I use it every single day. No issues!...",
+              "...cute and drinkable not distracting but what I don\u2019t like is that it leaks and gets scratches easily and you have to find flat ground so it won\u2019t tip..."
+            ]
+          }
+        ],
+        "brand_url": null,
+        "timestamp": "2026-09-21T04:54:13.273Z",
+        "input": {
+          "url": "https://www.amazon.com/dp/B0CRMZHDG8",
+          "asin": "",
+          "zipcode": "",
+          "language": ""
+        }
+      }
+    }
+  ]
+}

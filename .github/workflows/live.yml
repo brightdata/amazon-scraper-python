@@ -1,0 +1,433 @@
+# The only workflow that calls the real API. Needs the BRIGHTDATA_API_TOKEN
+# secret and spends about one credit per product.
+#
+# Four ways it runs:
+#   on every push to main: one product and the README's links, one credit
+#     and about a minute, so a broken commit shows up at once. A newer push
+#     cancels a run still going for an older commit.
+#   by hand, from the Actions tab, to scrape whatever products you choose
+#   every day at 07:20 UTC except Monday: one product, the async path, and the
+#     field table, about two credits
+#   every Monday at 07:20 UTC: the same, plus every code block in the README,
+#     about 12 credits
+#
+# A slow day at the API shows up as a red run. Rerun it before reading more
+# into it.
+#
+# The daily and Monday runs end by rewriting the "last verified" badge line at
+# the top of README.md with today's date, and committing it if it changed. Push
+# runs never do this, so your own push is never followed by a bot commit. Only
+# the main repository commits; a copy of the repository just runs the checks.
+name: Live check
+
+run-name: "${{ github.event.schedule == '20 7 * * 1' && 'Weekly check: does every README block still work?' || github.event_name == 'schedule' && 'Daily check: is anything broken?' || github.event_name == 'push' && format('Push check: {0}', github.event.head_commit.message) || format('Scrape {0}', inputs.asins) }}"
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "20 7 * * 0,2-6"  # daily smoke, every day except Monday
+    - cron: "20 7 * * 1"    # Monday: the whole README. Staggered across the
+      # scraper repos (06:00, 06:20, 06:40, 07:00, 07:20) so four full matrices never
+      # hit one account at once, which is what trips "too many requests".
+      # The two `== '20 7 * * 1'` checks below must match this line exactly.
+  workflow_dispatch:
+    inputs:
+      asins:
+        description: Amazon ASINs or product URLs, separated by spaces.
+        default: B0CRMZHDG8 B085DVHQ57
+      validate:
+        description: Also run every README block, as the Monday run does
+        type: boolean
+        default: false
+      only:
+        description: Block numbers to run, comma separated, for a cheap check. Empty means all.
+        default: ""
+
+permissions:
+  contents: write  # the daily check commits the regenerated field table
+
+concurrency:
+  group: live-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'push' }}  # only the newest commit matters
+
+jobs:
+  scrape:
+    name: Fetch the products and attach them to this run
+    runs-on: ubuntu-latest
+    timeout-minutes: 20  # fetch, async path, table; the README blocks have their own jobs
+    env:
+      BRIGHTDATA_API_TOKEN: ${{ secrets.BRIGHTDATA_API_TOKEN }}
+      # On the daily schedule there are no inputs, so fall back to one cheap product.
+      ASINS: ${{ inputs.asins || 'B0CRMZHDG8' }}
+      # the async path and the field table run on every scheduled run and on request
+      CHECK: ${{ github.event_name == 'schedule' || inputs.validate }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Install the package and the Bright Data CLI
+        run: |
+          pip install -e .
+          npm i -g @brightdata/cli@0.3.4  # pinned: this job holds the API secret
+
+      - name: Do the README's links still resolve?
+        run: |
+          public=$(curl -s -o /dev/null -w '%{http_code}' https://github.com/brightdata/amazon-scraper-python)
+          failed=0
+          for url in $(grep -ohE 'https?://[^ )>"`]+' README.md AGENTS.md | sed 's/[.,]$//' | sort -u); do
+            case "$url" in
+              *amazon.com/*) continue ;;     # rate-limits runners; the weekly README run fetches these products through the API anyway
+              *zendesk.com/*) continue ;;    # answers 403 to anything that is not a browser
+              *mcp.brightdata.com/*) continue ;;  # carries a placeholder token; nothing to check without a real one
+              *api.brightdata.com/*) continue ;;  # needs the token; the field-table step below calls it for real
+              *github.com/brightdata/amazon-scraper-python*) [ "$public" = "200" ] || continue ;;  # private for now
+            esac
+            code=$(curl -s -o /dev/null -L --retry 3 --max-time 30 -A "Mozilla/5.0" -w '%{http_code}' "$url" || echo 000)
+            if [ "$code" = "200" ]; then echo "200 $url"; else echo "::error::$code $url"; failed=1; fi
+          done
+          [ "$failed" = 0 ] || exit 1
+
+      - name: Fetch the products from Amazon
+        run: |
+          test -n "$BRIGHTDATA_API_TOKEN" || {
+            echo "No API token. Add BRIGHTDATA_API_TOKEN under" >&2
+            echo "Settings, Secrets and variables, Actions, then start this again." >&2
+            exit 1
+          }
+          # One retry, only on an API timeout. A slow day is not a broken build.
+          set +e
+          python -m amazon_scraper $ASINS 2>&1 | tee run.log
+          code=${PIPESTATUS[0]}
+          if [ "$code" != "0" ] && grep -q "timeout" run.log; then
+            echo "::warning::The API timed out. Waiting 30s and trying once more."
+            sleep 30
+            python -m amazon_scraper $ASINS 2>&1 | tee run.log
+            code=${PIPESTATUS[0]}
+          fi
+          exit "$code"
+
+      - name: Show what was found
+        if: always()
+        run: |
+          set -o pipefail
+          test -f amazon.json || exit 0
+          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import json
+
+          doc = json.load(open("amazon.json"))
+          print(f"Run at {doc['generated_at']}\n")
+          print("| asin | fields | price | rating | reviews |")
+          print("| --- | --- | --- | --- | --- |")
+          for entry in doc["products"]:
+              p = entry["product"] or {}
+              print(
+                  f"| {entry['asin']} | {len(p)} | {p.get('final_price', '-')} {p.get('currency', '')} "
+                  f"| {p.get('rating', '-')} | {p.get('reviews_count', '-')} |"
+              )
+          first = next((e["product"] for e in doc["products"] if e["product"]), None)
+          if first:
+              print("\n<details><summary>First record in full</summary>\n")
+              print("```json")
+              print(json.dumps(first, indent=2, ensure_ascii=False))
+              print("```\n")
+              print("</details>")
+          PY
+
+      # The two daily checks. The products path is already covered by the step above.
+      - name: Does the async trigger, status, fetch path still work?
+        if: env.CHECK == 'true'
+        run: |
+          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import time
+
+          from brightdata import SyncBrightDataClient
+
+          url = "https://www.amazon.com/dp/B0CRMZHDG8"
+          with SyncBrightDataClient(auto_create_zones=False) as c:
+              job = c.scrape.amazon.products_trigger(url)
+              sid = job.snapshot_id
+              for _ in range(72):  # up to 6 minutes
+                  status = c.scrape.amazon.products_status(sid)
+                  if status in ("ready", "failed", "canceled"):
+                      break
+                  time.sleep(5)
+              assert status == "ready", f"snapshot {sid} ended as {status}"
+              rows = c.scrape.amazon.products_fetch(sid)
+              rows = rows if isinstance(rows, list) else [rows]
+              assert rows and rows[0].get("asin"), "fetch returned no record"
+          print(f"\nAsync path ok: trigger, status, fetch returned {len(rows)} record(s).")
+          PY
+
+      - name: Regenerate the README field table from the live schema
+        if: always() && env.CHECK == 'true' && github.repository == 'brightdata/amazon-scraper-python'
+        run: |
+          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import json
+          import os
+          import pathlib
+          import re
+          import urllib.request
+
+          readme = pathlib.Path("README.md")
+          text = readme.read_text(encoding="utf-8")
+          start, end = "<!-- fields:start -->", "<!-- fields:end -->"
+          assert start in text and end in text, "README field-table markers are missing"
+
+          # The raw endpoint, not get_metadata(): the SDK drops the pii flag on
+          # every field when it parses this response (sdk-python#61).
+          request = urllib.request.Request(
+              "https://api.brightdata.com/datasets/gd_l7q7dkf244hwjntr0/metadata",
+              headers={"Authorization": f"Bearer {os.environ['BRIGHTDATA_API_TOKEN']}"},
+          )
+          fields = json.load(urllib.request.urlopen(request, timeout=60))["fields"]
+          sample = json.load(open("examples/sample_output.json"))["products"][0]["product"]
+          # A product carries a subset of the schema, and the API also returns
+          # fields the schema never lists, so these two counts differ.
+          known = sum(1 for name in fields if name in sample)
+          extra = [k for k in sample if k not in fields]
+
+          rows = ["| field | type | description |", "| --- | --- | --- |"]
+          for name, spec in fields.items():
+              desc = (spec.get("description") or "").replace(" — ", ": ").replace("—", ":")
+              desc = " ".join(desc.split()).replace("`", "'").replace("|", "/")  # no fences, no table breaks
+              pii = "Personal data. " if spec.get("pii") else ""
+              rows.append(f"| `{name}` | {spec.get('type')} | {pii}{desc} |")
+          tail = f", plus {' and '.join(f'`{k}`' for k in extra)}," if extra else "."
+          block = "\n".join([
+              start,
+              "<details>",
+              f"<summary>All {len(fields)} fields, with type and description</summary>",
+              "",
+              "Regenerated every day from the dataset schema, via the raw metadata",
+              "endpoint, so it cannot go stale. A",
+              f"product carries the fields that apply to it: the sample file has {known}",
+              f"of these {len(fields)}{tail}",
+              *(["which the schema does not list."] if extra else []),
+              "",
+              *rows,
+              "",
+              "</details>",
+              end,
+          ])
+          new = re.sub(re.escape(start) + r".*?" + re.escape(end), lambda _: block, text, flags=re.S)
+          readme.write_text(new, encoding="utf-8")
+          state = "updated" if new != text else "already current"
+          print(f"\nSchema: {len(fields)} fields. README table {state}.")
+          PY
+          if git diff --quiet README.md; then
+            echo "Nothing to commit."
+            exit 0
+          fi
+          # Never commit a README the tests would reject.
+          pip install -q -e ".[dev]" && pytest -q
+          git config user.name "anil-bd"
+          git config user.email "210667061+anil-bd@users.noreply.github.com"
+          git add README.md
+          git commit -m "Regenerate the field table from the live schema (automated daily check)"
+          git pull --rebase origin main
+          git push
+          echo "Committed the regenerated table."
+
+      - name: Attach amazon.json so you can download it
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        if: always()
+        with:
+          name: amazon-json
+          path: amazon.json
+          if-no-files-found: warn
+
+  # Every code block in the README, each in its own job. Mondays, and on request.
+  plan:
+    name: List the README blocks
+    if: github.event.schedule == '20 7 * * 1' || inputs.validate == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      blocks: ${{ steps.list.outputs.blocks }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: "3.12"
+      - id: list
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import os
+          import json
+          import pathlib
+          import re
+
+          readme = pathlib.Path("README.md").read_text(encoding="utf-8")
+          # never execute anything inside the generated field table: its text comes from
+          # the API, and a fence in a description must not become a command
+          readme = re.sub(r"<!-- fields:start -->.*?<!-- fields:end -->", "", readme, flags=re.S)
+          SKIP = ("pip install", "export ", "npm i", "npm install",
+                  "npx -p @brightdata/cli bdata login", "bdata login")
+          blocks, heading, seen = [], "README", {}
+          for m in re.finditer(r"^#{2,3} ([^\n]+)$|```(python|bash)\n(.*?)```", readme, re.M | re.S):
+              if m.group(1):
+                  heading = m.group(1).strip()  # a block is named after its section, not its first line
+                  continue
+              lang, code = m.group(2), m.group(3)
+              lines = [l for l in code.splitlines() if l.strip() and not l.strip().startswith("#")]
+              if lang == "bash":
+                  lines = [l for l in lines if not l.startswith(SKIP)]
+                  if not lines:
+                      continue
+                  code = "\n".join(l + ' -k "$BRIGHTDATA_API_TOKEN"' if "bdata pipelines" in l else l for l in lines)
+              seen[heading] = seen.get(heading, 0) + 1
+              title = heading if seen[heading] == 1 else f"{heading} ({seen[heading]})"
+              blocks.append({"lang": lang, "title": title[:50], "code": code})
+          wanted = {int(n) for n in os.environ.get("ONLY", "").split(",") if n.strip()}
+          out = [{"n": i + 1, "lang": b["lang"], "title": b["title"]} for i, b in enumerate(blocks) if not wanted or i + 1 in wanted]
+          print("blocks=" + json.dumps(out))
+          PY
+
+  block:
+    name: "${{ matrix.n }}. ${{ matrix.title }}"
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 15  # a block gives up at 8 minutes; past this it is stuck
+    strategy:
+      fail-fast: false
+      # Three at a time. The API stalls in waves, and it throttles an account
+      # that sends many requests at once. The cap does not fix either;
+      # it limits how much of the matrix one bad stretch can take down.
+      max-parallel: 3
+      matrix:
+        include: ${{ fromJson(needs.plan.outputs.blocks) }}
+    env:
+      BRIGHTDATA_API_TOKEN: ${{ secrets.BRIGHTDATA_API_TOKEN }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        with:
+          python-version: "3.12"
+      - name: Install the package and, for CLI blocks, the Bright Data CLI
+        run: |
+          pip install -e .
+          if [ "${{ matrix.lang }}" = "bash" ]; then npm i -g @brightdata/cli@0.3.4; fi
+      - name: Run block ${{ matrix.n }} exactly as the README shows it
+        env:
+          N: ${{ matrix.n }}
+        run: |
+          set -o pipefail  # without this, tee's exit code hides a failing block
+          python - <<'PY' | tee -a "$GITHUB_STEP_SUMMARY"
+          import os
+          import subprocess
+          import sys
+          import time
+          import pathlib
+          import re
+
+          readme = pathlib.Path("README.md").read_text(encoding="utf-8")
+          readme = re.sub(r"<!-- fields:start -->.*?<!-- fields:end -->", "", readme, flags=re.S)
+          SKIP = ("pip install", "export ", "npm i", "npm install",
+                  "npx -p @brightdata/cli bdata login", "bdata login")
+          blocks, heading, seen = [], "README", {}
+          for m in re.finditer(r"^#{2,3} ([^\n]+)$|```(python|bash)\n(.*?)```", readme, re.M | re.S):
+              if m.group(1):
+                  heading = m.group(1).strip()
+                  continue
+              lang, code = m.group(2), m.group(3)
+              lines = [l for l in code.splitlines() if l.strip() and not l.strip().startswith("#")]
+              if lang == "bash":
+                  lines = [l for l in lines if not l.startswith(SKIP)]
+                  if not lines:
+                      continue
+                  code = "\n".join(l + ' -k "$BRIGHTDATA_API_TOKEN"' if "bdata pipelines" in l else l for l in lines)
+              seen[heading] = seen.get(heading, 0) + 1
+              title = heading if seen[heading] == 1 else f"{heading} ({seen[heading]})"
+              blocks.append({"lang": lang, "title": title[:50], "code": code})
+          b = blocks[int(os.environ["N"]) - 1]
+          argv = ["bash", "-e", "-c", b["code"]] if b["lang"] == "bash" else [sys.executable, "-c", b["code"]]
+          secret = os.environ.get("BRIGHTDATA_API_TOKEN", "")
+          status = None
+          for attempt in (1, 2):
+              started = time.time()
+              try:
+                  run = subprocess.run(argv, capture_output=True, text=True, timeout=480)
+              except subprocess.TimeoutExpired:
+                  run = subprocess.CompletedProcess(argv, 1, "", "block timeout: no result within 8 minutes")
+              secs = round(time.time() - started)
+              status = run.returncode
+              out, err = run.stdout.strip(), run.stderr.strip()
+              if secret:  # summaries are not secret-masked the way logs are
+                  out, err = out.replace(secret, "***"), err.replace(secret, "***")
+              ok = run.returncode == 0 and bool(out if b["lang"] == "python" else out or err)
+              if ok or ((out or err) and "timeout" not in (out + err).lower()):
+                  break
+              time.sleep(30)  # the API timed out or answered with nothing at all; one retry
+          # A block that exits 0 having printed nothing is not a crash: the call
+          # ran and returned no rows. Say so, or the next reader hunts for one.
+          if ok:
+              shown = [(out.splitlines() or [""])[0]]
+          elif status == 0 and not out and not err:
+              shown = ["exited 0 and printed nothing: the call returned no rows"]
+          else:
+              # The last line alone hides the cause. For the CLI it is the
+              # "Saved 1 of 2" summary, and the line saying which input failed
+              # and why sits above it. Show the failure lines, else the tail.
+              lines = [l for l in (out + "\n" + err).splitlines() if l.strip()]
+              reasons = [l for l in lines if l.startswith("failed ") or "Error" in l]
+              shown = (reasons or lines or [f"no output, exit {status}"])[-6:]
+          body = "\n".join(f"    {line[:160]}" for line in shown)
+          print(f"\n`{b['title']}`: {'ok' if ok else 'FAILED'} in {secs}s\n\n{body}")
+          sys.exit(0 if ok else 1)
+          PY
+
+  badge:
+    name: Put today's date on the README's "last verified" badge
+    needs: [scrape, plan, block]
+    # scheduled and manual runs only, and only in the main repository: a push is
+    # never followed by a bot commit, and a copy never diverges from the original.
+    #
+    # `inputs.only` empty as well: a run of one block that passes is not the
+    # README verified. A scheduled run has no inputs, where `inputs.only` is null
+    # and this comparison is still true, so the daily and Monday runs set it.
+    if: always() && !cancelled() && github.event_name != 'push' && inputs.only == '' && github.repository == 'brightdata/amazon-scraper-python'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          # The tip of main, not this run's commit. A re-run checks out the
+          # commit the run first started on, but an earlier attempt of the same
+          # run may already have pushed a badge edit to this very line. Editing
+          # from that stale base makes the rebase below stop on a conflict. From
+          # the tip, the line is replaced, never merged. This broke the Node twin
+          # on 2026-09-18 when a failed run was re-run.
+          ref: main
+      - name: Rewrite one badge line, commit only if it changed
+        env:
+          SCRAPE: ${{ needs.scrape.result }}
+          BLOCKS: ${{ needs.block.result }}  # skipped on the daily run, and that is fine
+        run: |
+          if [ "$SCRAPE" = "success" ] && { [ "$BLOCKS" = "success" ] || [ "$BLOCKS" = "skipped" ]; }; then
+            label="last verified"; color="brightgreen"
+          else
+            label="last check failed"; color="red"
+          fi
+          today=$(date -u +'%-d %b %Y')
+          line="[![${label}](https://img.shields.io/badge/${label// /%20}-${today// /%20}-${color})](https://github.com/brightdata/amazon-scraper-python/actions/workflows/live.yml) <!-- verified: rewritten by the daily run -->"
+          python3 - "$line" <<'PY'
+          import pathlib, re, sys
+          p = pathlib.Path("README.md"); t = p.read_text(encoding="utf-8")
+          new, n = re.subn(r"^\[!\[last [^\]]*\]\(https://img\.shields\.io/badge/[^)]*\)\]\([^)]*\) <!-- verified:[^\n]*$", sys.argv[1], t, count=1, flags=re.M)
+          if n != 1:
+              sys.exit("the badge line is missing from README.md")
+          p.write_text(new, encoding="utf-8")
+          PY
+          if git diff --quiet; then echo "badge already shows $today"; exit 0; fi
+          git config user.name "anil-bd"
+          git config user.email "210667061+anil-bd@users.noreply.github.com"
+          # $label, not a fixed "Last verified": the log should not claim a
+          # check passed on a day the badge went red.
+          git commit -qam "${label^} $today (automated daily check)"
+          git pull -q --rebase origin main
+          git push -q origin main
+          echo "badge now shows: $label, $today"
