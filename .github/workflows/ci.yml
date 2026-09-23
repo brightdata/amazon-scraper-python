@@ -90,10 +90,9 @@ jobs:
               if line.startswith("amazon-scraper"):
                   continue  # run below, so the exit code can be checked
               if line.startswith("pip install"):
-                  # While the repository is private nobody, including this
-                  # runner, can fetch that URL, so fall back to the checkout.
-                  # When it goes public the check arms itself and tests the
-                  # exact line a reader pastes. Nothing to remember later.
+                  # The repository is public, so this installs the exact line a
+                  # reader pastes. On a private fork the URL is unreachable, and
+                  # the check falls back to the checkout on its own.
                   url = line.split("git+", 1)[1].strip() if "git+" in line else ""
                   line = "\n".join([
                       f'repo="{url}"',

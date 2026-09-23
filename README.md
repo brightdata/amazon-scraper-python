@@ -75,9 +75,6 @@ pip install git+https://github.com/brightdata/amazon-scraper-python
 amazon-scraper B0CRMZHDG8 B085DVHQ57
 ```
 
-While this repository is private, that install line works only for people with
-access to it.
-
 ```
 Fetching 2 Amazon products: B0CRMZHDG8, B085DVHQ57
 One job for all of them. One credit per product.
