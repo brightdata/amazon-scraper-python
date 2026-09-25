@@ -3,7 +3,7 @@
 # amazon-scraper-python
 
 [![Live check](https://github.com/brightdata/amazon-scraper-python/actions/workflows/live.yml/badge.svg)](https://github.com/brightdata/amazon-scraper-python/actions/workflows/live.yml)
-[![last verified](https://img.shields.io/badge/last%20verified-24%20Sep%202026-brightgreen)](https://github.com/brightdata/amazon-scraper-python/actions/workflows/live.yml) <!-- verified: rewritten by the daily run -->
+[![last verified](https://img.shields.io/badge/last%20verified-25%20Sep%202026-brightgreen)](https://github.com/brightdata/amazon-scraper-python/actions/workflows/live.yml) <!-- verified: rewritten by the daily run -->
 
 [Quickstart](#quickstart) · [Command](#or-run-it-as-a-command) · [Endpoints](#the-rest-of-the-api) · [Data](#the-data) · [Errors](#when-it-fails) · [Coding agents](#coding-agents) · [Docs](https://docs.brightdata.com/products/scrapers/amazon/introduction) · [Support](#support)
 
